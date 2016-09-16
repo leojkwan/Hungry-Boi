@@ -14,6 +14,11 @@
 		9497BB001D8C4AD900E45158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9497BAFE1D8C4AD900E45158 /* LaunchScreen.storyboard */; };
 		9497BB0B1D8C4AD900E45158 /* HungryBoiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9497BB0A1D8C4AD900E45158 /* HungryBoiTests.swift */; };
 		9497BB161D8C4AD900E45158 /* HungryBoiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9497BB151D8C4AD900E45158 /* HungryBoiUITests.swift */; };
+		9497BB281D8C517800E45158 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9497BB271D8C517800E45158 /* FoodTableViewCell.xib */; };
+		9497BB2A1D8C519900E45158 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9497BB291D8C519900E45158 /* FoodTableViewCell.swift */; };
+		94E97ECF1D8C7BEB00E25C3A /* HungryBoi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94E97ECD1D8C7BEB00E25C3A /* HungryBoi.xcdatamodeld */; };
+		94E97ED21D8C7C6500E25C3A /* Recipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E97ED01D8C7C6500E25C3A /* Recipe+CoreDataClass.swift */; };
+		94E97ED31D8C7C6500E25C3A /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E97ED11D8C7C6500E25C3A /* Recipe+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		9497BB111D8C4AD900E45158 /* HungryBoiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HungryBoiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9497BB151D8C4AD900E45158 /* HungryBoiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungryBoiUITests.swift; sourceTree = "<group>"; };
 		9497BB171D8C4AD900E45158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9497BB271D8C517800E45158 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		9497BB291D8C519900E45158 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		94E97ECE1D8C7BEB00E25C3A /* HungryBoi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HungryBoi.xcdatamodel; sourceTree = "<group>"; };
+		94E97ED01D8C7C6500E25C3A /* Recipe+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataClass.swift"; path = "../Recipe+CoreDataClass.swift"; sourceTree = "<group>"; };
+		94E97ED11D8C7C6500E25C3A /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +109,12 @@
 			children = (
 				9497BAF51D8C4AD900E45158 /* AppDelegate.swift */,
 				9497BAF71D8C4AD900E45158 /* ViewController.swift */,
+				94E97ED01D8C7C6500E25C3A /* Recipe+CoreDataClass.swift */,
+				94E97ED11D8C7C6500E25C3A /* Recipe+CoreDataProperties.swift */,
+				94E97ECD1D8C7BEB00E25C3A /* HungryBoi.xcdatamodeld */,
 				9497BAF91D8C4AD900E45158 /* Main.storyboard */,
+				9497BB271D8C517800E45158 /* FoodTableViewCell.xib */,
+				9497BB291D8C519900E45158 /* FoodTableViewCell.swift */,
 				9497BAFC1D8C4AD900E45158 /* Assets.xcassets */,
 				9497BAFE1D8C4AD900E45158 /* LaunchScreen.storyboard */,
 				9497BB011D8C4AD900E45158 /* Info.plist */,
@@ -193,6 +208,7 @@
 				TargetAttributes = {
 					9497BAF11D8C4AD900E45158 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DWCYJ9H353;
 						ProvisioningStyle = Automatic;
 					};
 					9497BB051D8C4AD900E45158 = {
@@ -234,6 +250,7 @@
 			files = (
 				9497BB001D8C4AD900E45158 /* LaunchScreen.storyboard in Resources */,
 				9497BAFD1D8C4AD900E45158 /* Assets.xcassets in Resources */,
+				9497BB281D8C517800E45158 /* FoodTableViewCell.xib in Resources */,
 				9497BAFB1D8C4AD900E45158 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E97ED21D8C7C6500E25C3A /* Recipe+CoreDataClass.swift in Sources */,
 				9497BAF81D8C4AD900E45158 /* ViewController.swift in Sources */,
+				94E97ECF1D8C7BEB00E25C3A /* HungryBoi.xcdatamodeld in Sources */,
+				94E97ED31D8C7C6500E25C3A /* Recipe+CoreDataProperties.swift in Sources */,
+				9497BB2A1D8C519900E45158 /* FoodTableViewCell.swift in Sources */,
 				9497BAF61D8C4AD900E45158 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DWCYJ9H353;
 				INFOPLIST_FILE = HungryBoi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leojkwan.HungryBoi;
@@ -424,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DWCYJ9H353;
 				INFOPLIST_FILE = HungryBoi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leojkwan.HungryBoi;
@@ -505,6 +528,7 @@
 				9497BB1C1D8C4AD900E45158 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9497BB1D1D8C4AD900E45158 /* Build configuration list for PBXNativeTarget "HungryBoiTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +537,7 @@
 				9497BB1F1D8C4AD900E45158 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9497BB201D8C4AD900E45158 /* Build configuration list for PBXNativeTarget "HungryBoiUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,8 +546,22 @@
 				9497BB221D8C4AD900E45158 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94E97ECD1D8C7BEB00E25C3A /* HungryBoi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94E97ECE1D8C7BEB00E25C3A /* HungryBoi.xcdatamodel */,
+			);
+			currentVersion = 94E97ECE1D8C7BEB00E25C3A /* HungryBoi.xcdatamodel */;
+			path = HungryBoi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9497BAEA1D8C4AD900E45158 /* Project object */;
 }
