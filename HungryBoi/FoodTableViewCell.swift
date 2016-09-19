@@ -1,5 +1,6 @@
 import Foundation
 import UIKit
+import HungryBoiCommon
 
 class FoodTableViewCell: UITableViewCell {
   static var identifier = "FoodTableViewCell"
@@ -21,7 +22,7 @@ class FoodTableViewCell: UITableViewCell {
         return
       }
       
-      foodNameLabel.text = recipe?.name?.uppercased()
+      foodNameLabel.text = recipe?.name.uppercased()
 //      foodImageView.image = recipe?.image
     }
   }

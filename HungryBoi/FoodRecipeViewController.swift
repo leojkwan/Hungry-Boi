@@ -1,17 +1,12 @@
 import UIKit
+import HungryBoiCommon
 import CoreData
+import WatchConnectivity
 
-let persistentContainer: NSPersistentContainer = {
-  let container = NSPersistentContainer(name: "HungryBoi")
-  container.loadPersistentStores { storeDescription, error in
-    if let error = error as NSError? {
-      fatalError("Unresolved error \(error), \(error.userInfo)")
-    }
-  }
-  return container
-}()
+
 
 class FoodDataSource {
+  
   private var recipes: [Recipe]
   
   init(recipes: [Recipe]) {
@@ -21,7 +16,9 @@ class FoodDataSource {
   func numberOfRecipes(in section: Int)-> Int {
     // we only have 1 section for now,
     // just return recipes array count.
+    print(recipes.count)
     return recipes.count
+    
   }
   
   func numberOfSections()-> Int {
@@ -34,8 +31,8 @@ class FoodDataSource {
   }
   
   func titleForRecipe(at indexPath: IndexPath)-> String {
-    let recipeAtIndexPath = recipes[indexPath.row]
-    return recipeAtIndexPath.name ?? ""
+    let recipeAtIndexPath: Recipe = recipes[indexPath.row]
+    return recipeAtIndexPath.name 
   }
   //
   //  func imageForRecipe(at indexPath: IndexPath)-> UIImage? {
@@ -48,10 +45,12 @@ class FoodRecipeViewController: UITableViewController {
   
   var foodDataSource: FoodDataSource!
   var recipes: [Recipe]?
+  var persistentContainer: NSPersistentContainer!
+//  let watchService = PhoneToWatchService.sharedInstance
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+    title = "Hungry Boi Snacks"
     updateTableViewRecipes()
     setUpTableView()
   }
@@ -101,11 +100,7 @@ class FoodRecipeViewController: UITableViewController {
       forCellReuseIdentifier: FoodTableViewCell.identifier
     )
   }
-  
-  override func numberOfSections(in tableView: UITableView) -> Int {
-    return 1
-  }
-  
+
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     if recipes == nil {
       return 0

@@ -1,21 +1,32 @@
-//
-//  AppDelegate.swift
-//  HungryBoi
-//
-//  Created by Leo Kwan on 9/16/16.
-//  Copyright © 2016 Leo Kwan. All rights reserved.
-//
-
 import UIKit
+import CoreData
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+  private static var persistentContainer: NSPersistentContainer = {
+    let container = NSPersistentContainer(name: "HungryBoi")
+    container.loadPersistentStores { storeDescription, error in
+      if let error = error as NSError? {
+        fatalError("Unresolved error \(error), \(error.userInfo)")
+      }
+    }
+    return container
+  }()
+  
+  let watchService = PhoneToWatchService(persistentContainer: persistentContainer)
   var window: UIWindow?
 
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    // Override point for customization after application launch.
+    
+    // Set up Watch Connectivity
+    watchService.setupWatchConnectivity()
+    let nav = window!.rootViewController as! UINavigationController
+    let foodVC = nav.topViewController as! FoodRecipeViewController
+    foodVC.persistentContainer = AppDelegate.persistentContainer
+
     return true
   }
 

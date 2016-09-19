@@ -9,6 +9,21 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>HungryBoiCommon.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>HungryBoiWatchKitApp (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>HungryBoiWatchKitApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +38,21 @@
 			<true/>
 		</dict>
 		<key>9497BB101D8C4AD900E45158</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>94E97ED51D8C873B00E25C3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>94E97F011D8C879400E25C3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>94E97F091D8C879400E25C3A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
