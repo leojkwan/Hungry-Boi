@@ -5,8 +5,13 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-  private static var persistentContainer: NSPersistentContainer = {
+  private lazy var persistentContainer: NSPersistentContainer = {
     let container = NSPersistentContainer(name: "HungryBoi")
+    
+//    let description = NSPersistentStoreDescription()
+//    description.type = NSInMemoryStoreType
+//    container.persistentStoreDescriptions = [description]
+    
     container.loadPersistentStores { storeDescription, error in
       if let error = error as NSError? {
         fatalError("Unresolved error \(error), \(error.userInfo)")
@@ -15,18 +20,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     return container
   }()
   
-  let watchService = PhoneToWatchService(persistentContainer: persistentContainer)
+  
   var window: UIWindow?
 
-
+  func application(_ application: UIApplication, handleWatchKitExtensionRequest userInfo: [AnyHashable : Any]?, reply: @escaping ([AnyHashable : Any]?) -> Void) {
+    print("handle watch kit extension request \(userInfo)")
+  }
+  
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     
     // Set up Watch Connectivity
+    let watchService = PhoneToWatchService(persistentContainer: persistentContainer)
     watchService.setupWatchConnectivity()
     let nav = window!.rootViewController as! UINavigationController
     let foodVC = nav.topViewController as! FoodRecipeViewController
-    foodVC.persistentContainer = AppDelegate.persistentContainer
-
+    foodVC.persistentContainer = persistentContainer
+    foodVC.watchService = watchService
+    
     return true
   }
 

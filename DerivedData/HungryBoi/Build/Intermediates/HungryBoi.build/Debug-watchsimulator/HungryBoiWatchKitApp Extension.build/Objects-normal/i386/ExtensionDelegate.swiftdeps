@@ -1,0 +1,388 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ExtensionDelegate"
+- "handle"
+provides-nominal:
+- "C30HungryBoiWatchKitApp_Extension17ExtensionDelegate"
+provides-member:
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", ""]
+provides-dynamic-lookup:
+- "applicationDidFinishLaunching"
+- "watchService"
+depends-top-level:
+- !private "WKApplicationRefreshBackgroundTask"
+- "WatchToPhoneService"
+- "ExtensionDelegate"
+- !private "WKWatchConnectivityRefreshBackgroundTask"
+- !private "WKURLSessionRefreshBackgroundTask"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "RecipesWatchController"
+- "WKRefreshBackgroundTask"
+- "Set"
+- !private "WKSnapshotRefreshBackgroundTask"
+- "handle"
+- "NSObject"
+- "WKExtensionDelegate"
+- !private "WKExtension"
+- !private "Date"
+- !private "BooleanLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "WKExtension"]
+- ["Ps9AnyObject", "WatchToPhoneService"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidEnterBackground"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationWillEnterForeground"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "didReceive"]
+- ["Ps9AnyObject", "didReceiveLocalNotification"]
+- ["Ps9AnyObject", "didReceiveRemoteNotification"]
+- ["Ps9AnyObject", "handle"]
+- ["Ps9AnyObject", "handleAction"]
+- ["Ps9AnyObject", "handleActionWithIdentifier"]
+- ["Ps9AnyObject", "handleBackgroundTasks"]
+- ["Ps9AnyObject", "handleUserActivity"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "rootInterfaceController"]
+- !private ["Ps9AnyObject", "setTaskCompleted"]
+- !private ["Ps9AnyObject", "setupWatchConnectivity"]
+- !private ["Ps9AnyObject", "shared"]
+- ["Ps9AnyObject", "watchService"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "WKExtension"]
+- ["Ps7CVarArg", "WatchToPhoneService"]
+- ["Ps7CVarArg", "applicationDidBecomeActive"]
+- ["Ps7CVarArg", "applicationDidEnterBackground"]
+- ["Ps7CVarArg", "applicationDidFinishLaunching"]
+- ["Ps7CVarArg", "applicationWillEnterForeground"]
+- ["Ps7CVarArg", "applicationWillResignActive"]
+- !private ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "didReceive"]
+- ["Ps7CVarArg", "didReceiveLocalNotification"]
+- ["Ps7CVarArg", "didReceiveRemoteNotification"]
+- ["Ps7CVarArg", "handle"]
+- ["Ps7CVarArg", "handleAction"]
+- ["Ps7CVarArg", "handleActionWithIdentifier"]
+- ["Ps7CVarArg", "handleBackgroundTasks"]
+- ["Ps7CVarArg", "handleUserActivity"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "rootInterfaceController"]
+- !private ["Ps7CVarArg", "setTaskCompleted"]
+- !private ["Ps7CVarArg", "setupWatchConnectivity"]
+- !private ["Ps7CVarArg", "shared"]
+- ["Ps7CVarArg", "watchService"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Comparable", "distantFuture"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "WKExtension"]
+- ["Ps28CustomDebugStringConvertible", "WatchToPhoneService"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "didReceive"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveLocalNotification"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveRemoteNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "distantFuture"]
+- ["Ps28CustomDebugStringConvertible", "handle"]
+- ["Ps28CustomDebugStringConvertible", "handleAction"]
+- ["Ps28CustomDebugStringConvertible", "handleActionWithIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "handleBackgroundTasks"]
+- ["Ps28CustomDebugStringConvertible", "handleUserActivity"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "rootInterfaceController"]
+- !private ["Ps28CustomDebugStringConvertible", "setTaskCompleted"]
+- !private ["Ps28CustomDebugStringConvertible", "setupWatchConnectivity"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- ["Ps28CustomDebugStringConvertible", "watchService"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "distantFuture"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "distantFuture"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "WKExtension"]
+- ["Ps23CustomStringConvertible", "WatchToPhoneService"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "didReceive"]
+- ["Ps23CustomStringConvertible", "didReceiveLocalNotification"]
+- ["Ps23CustomStringConvertible", "didReceiveRemoteNotification"]
+- !private ["Ps23CustomStringConvertible", "distantFuture"]
+- ["Ps23CustomStringConvertible", "handle"]
+- ["Ps23CustomStringConvertible", "handleAction"]
+- ["Ps23CustomStringConvertible", "handleActionWithIdentifier"]
+- ["Ps23CustomStringConvertible", "handleBackgroundTasks"]
+- ["Ps23CustomStringConvertible", "handleUserActivity"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "rootInterfaceController"]
+- !private ["Ps23CustomStringConvertible", "setTaskCompleted"]
+- !private ["Ps23CustomStringConvertible", "setupWatchConnectivity"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- ["Ps23CustomStringConvertible", "watchService"]
+- ["Ps23CustomStringConvertible", ""]
+- ["V10Foundation4Date", "deinit"]
+- !private ["V10Foundation4Date", "distantFuture"]
+- !private ["Ps9Equatable", "Iterator"]
+- !private ["Ps9Equatable", "WKExtension"]
+- ["Ps9Equatable", "WatchToPhoneService"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidEnterBackground"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationWillEnterForeground"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "didReceive"]
+- ["Ps9Equatable", "didReceiveLocalNotification"]
+- ["Ps9Equatable", "didReceiveRemoteNotification"]
+- !private ["Ps9Equatable", "distantFuture"]
+- ["Ps9Equatable", "handle"]
+- ["Ps9Equatable", "handleAction"]
+- ["Ps9Equatable", "handleActionWithIdentifier"]
+- ["Ps9Equatable", "handleBackgroundTasks"]
+- ["Ps9Equatable", "handleUserActivity"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "rootInterfaceController"]
+- !private ["Ps9Equatable", "setTaskCompleted"]
+- !private ["Ps9Equatable", "setupWatchConnectivity"]
+- !private ["Ps9Equatable", "shared"]
+- ["Ps9Equatable", "watchService"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "RecipesWatchController"]
+- !private ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "WKExtension"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "WatchToPhoneService"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "applicationDidBecomeActive"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "applicationDidEnterBackground"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "applicationDidFinishLaunching"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "applicationWillEnterForeground"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "applicationWillResignActive"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "deinit"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "didReceive"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "didReceiveLocalNotification"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "didReceiveRemoteNotification"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "handle"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "handleAction"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "handleActionWithIdentifier"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "handleBackgroundTasks"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "handleUserActivity"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "init"]
+- ["C30HungryBoiWatchKitApp_Extension17ExtensionDelegate", "watchService"]
+- !private ["Ps8Hashable", "Iterator"]
+- !private ["Ps8Hashable", "WKExtension"]
+- ["Ps8Hashable", "WatchToPhoneService"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidEnterBackground"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationWillEnterForeground"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "didReceive"]
+- ["Ps8Hashable", "didReceiveLocalNotification"]
+- ["Ps8Hashable", "didReceiveRemoteNotification"]
+- !private ["Ps8Hashable", "distantFuture"]
+- ["Ps8Hashable", "handle"]
+- ["Ps8Hashable", "handleAction"]
+- ["Ps8Hashable", "handleActionWithIdentifier"]
+- ["Ps8Hashable", "handleBackgroundTasks"]
+- ["Ps8Hashable", "handleUserActivity"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "rootInterfaceController"]
+- !private ["Ps8Hashable", "setTaskCompleted"]
+- !private ["Ps8Hashable", "setupWatchConnectivity"]
+- !private ["Ps8Hashable", "shared"]
+- ["Ps8Hashable", "watchService"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["CSo8NSObject", "RecipesWatchController"]
+- !private ["CSo8NSObject", "WKExtension"]
+- ["CSo8NSObject", "WatchToPhoneService"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didReceive"]
+- ["CSo8NSObject", "didReceiveLocalNotification"]
+- ["CSo8NSObject", "didReceiveRemoteNotification"]
+- ["CSo8NSObject", "handle"]
+- ["CSo8NSObject", "handleAction"]
+- ["CSo8NSObject", "handleActionWithIdentifier"]
+- ["CSo8NSObject", "handleBackgroundTasks"]
+- ["CSo8NSObject", "handleUserActivity"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "rootInterfaceController"]
+- !private ["CSo8NSObject", "setTaskCompleted"]
+- !private ["CSo8NSObject", "setupWatchConnectivity"]
+- !private ["CSo8NSObject", "shared"]
+- ["CSo8NSObject", "watchService"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "WKExtension"]
+- ["PSo16NSObjectProtocol", "WatchToPhoneService"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didReceive"]
+- ["PSo16NSObjectProtocol", "didReceiveLocalNotification"]
+- ["PSo16NSObjectProtocol", "didReceiveRemoteNotification"]
+- ["PSo16NSObjectProtocol", "handle"]
+- ["PSo16NSObjectProtocol", "handleAction"]
+- ["PSo16NSObjectProtocol", "handleActionWithIdentifier"]
+- ["PSo16NSObjectProtocol", "handleBackgroundTasks"]
+- ["PSo16NSObjectProtocol", "handleUserActivity"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "rootInterfaceController"]
+- !private ["PSo16NSObjectProtocol", "setTaskCompleted"]
+- !private ["PSo16NSObjectProtocol", "setupWatchConnectivity"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- ["PSo16NSObjectProtocol", "watchService"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- ["C30HungryBoiWatchKitApp_Extension22RecipesWatchController", "deinit"]
+- !private ["P10Foundation20ReferenceConvertible", "distantFuture"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Vs3Set", "Iterator"]
+- ["Vs3Set", "deinit"]
+- !private ["Ps10SetAlgebra", "Iterator"]
+- !private ["Vs11SetIterator", "Element"]
+- !private ["PSo17WCSessionDelegate", "delegate"]
+- ["PSo17WCSessionDelegate", "init"]
+- !private ["PSo17WCSessionDelegate", "setupWatchConnectivity"]
+- ["CSo34WKApplicationRefreshBackgroundTask", "deinit"]
+- !private ["CSo34WKApplicationRefreshBackgroundTask", "setTaskCompleted"]
+- ["CSo11WKExtension", "deinit"]
+- !private ["CSo11WKExtension", "rootInterfaceController"]
+- !private ["CSo11WKExtension", "shared"]
+- !private ["PSo19WKExtensionDelegate", "WKExtension"]
+- ["PSo19WKExtensionDelegate", "WatchToPhoneService"]
+- ["PSo19WKExtensionDelegate", "applicationDidBecomeActive"]
+- ["PSo19WKExtensionDelegate", "applicationDidEnterBackground"]
+- ["PSo19WKExtensionDelegate", "applicationDidFinishLaunching"]
+- ["PSo19WKExtensionDelegate", "applicationWillEnterForeground"]
+- ["PSo19WKExtensionDelegate", "applicationWillResignActive"]
+- ["PSo19WKExtensionDelegate", "didReceive"]
+- ["PSo19WKExtensionDelegate", "didReceiveLocalNotification"]
+- ["PSo19WKExtensionDelegate", "didReceiveRemoteNotification"]
+- ["PSo19WKExtensionDelegate", "handle"]
+- ["PSo19WKExtensionDelegate", "handleAction"]
+- ["PSo19WKExtensionDelegate", "handleActionWithIdentifier"]
+- ["PSo19WKExtensionDelegate", "handleBackgroundTasks"]
+- ["PSo19WKExtensionDelegate", "handleUserActivity"]
+- !private ["PSo19WKExtensionDelegate", "watchService"]
+- ["PSo19WKExtensionDelegate", ""]
+- ["CSo23WKRefreshBackgroundTask", "deinit"]
+- !private ["CSo23WKRefreshBackgroundTask", "setTaskCompleted"]
+- ["CSo31WKSnapshotRefreshBackgroundTask", "deinit"]
+- !private ["CSo31WKSnapshotRefreshBackgroundTask", "setTaskCompleted"]
+- ["CSo33WKURLSessionRefreshBackgroundTask", "deinit"]
+- !private ["CSo33WKURLSessionRefreshBackgroundTask", "setTaskCompleted"]
+- ["CSo40WKWatchConnectivityRefreshBackgroundTask", "deinit"]
+- !private ["CSo40WKWatchConnectivityRefreshBackgroundTask", "setTaskCompleted"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "deinit"]
+- !private ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "delegate"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "init"]
+- !private ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "setupWatchConnectivity"]
+- !private ["Ps9_Hashable", "Iterator"]
+- !private ["Ps9_Hashable", "WKExtension"]
+- ["Ps9_Hashable", "WatchToPhoneService"]
+- ["Ps9_Hashable", "applicationDidBecomeActive"]
+- ["Ps9_Hashable", "applicationDidEnterBackground"]
+- ["Ps9_Hashable", "applicationDidFinishLaunching"]
+- ["Ps9_Hashable", "applicationWillEnterForeground"]
+- ["Ps9_Hashable", "applicationWillResignActive"]
+- !private ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "didReceive"]
+- ["Ps9_Hashable", "didReceiveLocalNotification"]
+- ["Ps9_Hashable", "didReceiveRemoteNotification"]
+- !private ["Ps9_Hashable", "distantFuture"]
+- ["Ps9_Hashable", "handle"]
+- ["Ps9_Hashable", "handleAction"]
+- ["Ps9_Hashable", "handleActionWithIdentifier"]
+- ["Ps9_Hashable", "handleBackgroundTasks"]
+- ["Ps9_Hashable", "handleUserActivity"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "rootInterfaceController"]
+- !private ["Ps9_Hashable", "setTaskCompleted"]
+- !private ["Ps9_Hashable", "setupWatchConnectivity"]
+- !private ["Ps9_Hashable", "shared"]
+- ["Ps9_Hashable", "watchService"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "distantFuture"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Date"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "C30HungryBoiWatchKitApp_Extension17ExtensionDelegate"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Ps16IteratorProtocol"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "C30HungryBoiWatchKitApp_Extension22RecipesWatchController"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- "Vs3Set"
+- !private "Ps10SetAlgebra"
+- !private "Vs11SetIterator"
+- "PSo17WCSessionDelegate"
+- "CSo34WKApplicationRefreshBackgroundTask"
+- "CSo11WKExtension"
+- "PSo19WKExtensionDelegate"
+- "CSo23WKRefreshBackgroundTask"
+- "CSo31WKSnapshotRefreshBackgroundTask"
+- "CSo33WKURLSessionRefreshBackgroundTask"
+- "CSo40WKWatchConnectivityRefreshBackgroundTask"
+- "C30HungryBoiWatchKitApp_Extension19WatchToPhoneService"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/WatchKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/HomeKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/SceneKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/simd.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreLocation.swiftmodule"
+interface-hash: "a472d8957ed281cdade43fc22d311471"

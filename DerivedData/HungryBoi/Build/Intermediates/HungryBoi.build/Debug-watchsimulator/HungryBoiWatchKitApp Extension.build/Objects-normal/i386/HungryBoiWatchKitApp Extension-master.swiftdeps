@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "3df9d4009a72a971e98d0293a10fcd03"
+build_time: [527717423, 151263000]
+inputs:
+  "/Users/leokwan/Development/Hungry-Boi/HungryBoiWatchKitApp Extension/NotificationController.swift": [527705823, 0]
+  "/Users/leokwan/Development/Hungry-Boi/HungryBoiCommon/WatchRecipe.swift": [527705823, 0]
+  "/Users/leokwan/Development/Hungry-Boi/HungryBoiWatchKitApp Extension/WatchToPhoneService.swift": [527717423, 0]
+  "/Users/leokwan/Development/Hungry-Boi/HungryBoiWatchKitApp Extension/ExtensionDelegate.swift": [527705823, 0]
+  "/Users/leokwan/Development/Hungry-Boi/HungryBoiCommon/RecipeRowController.swift": [527705823, 0]
+  "/Users/leokwan/Development/Hungry-Boi/HungryBoiWatchKitApp Extension/RecipesWatchController.swift": [527705823, 0]

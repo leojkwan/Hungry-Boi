@@ -9,7 +9,7 @@ public extension Recipe {
 
     @NSManaged public var name: String
   
-  public class func fetch(from container:NSPersistentContainer, completion:@escaping ([Recipe]) -> Void)  {
+  public class func fetchAll(from container:NSPersistentContainer, completion:@escaping ([Recipe]) -> Void)  {
     let request: NSFetchRequest<Recipe> = Recipe.fetchRequest()
     request.returnsObjectsAsFaults = false
     request.sortDescriptors = [NSSortDescriptor(key: "name", ascending: false)]

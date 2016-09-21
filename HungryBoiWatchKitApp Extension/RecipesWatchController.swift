@@ -27,9 +27,9 @@ class RecipesWatchController: WKInterfaceController {
 
 extension RecipesWatchController: IncomingWatchInfoDelegate {
   func didReceiveUserInfo(key: String, info: Any) {
-    print("show in table view")
+    
     if let recipes = info as? [WatchRecipe] {
-      // rowType == cellReuseId
+      
     recipeTableView.setNumberOfRows(recipes.count, withRowType: "RecipeRowType")
       
       for (index, recipe) in recipes.enumerated() {

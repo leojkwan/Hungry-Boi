@@ -1,0 +1,588 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PhoneToWatchService"
+provides-nominal:
+- "C9HungryBoi19PhoneToWatchService"
+provides-member:
+- ["C9HungryBoi19PhoneToWatchService", ""]
+- ["C9HungryBoi19PhoneToWatchService", "sessionDidDeactivate"]
+- ["C9HungryBoi19PhoneToWatchService", "sessionDidBecomeInactive"]
+- ["C9HungryBoi19PhoneToWatchService", "session"]
+provides-dynamic-lookup:
+- "persistentContainer"
+- "session"
+- "session"
+- "session"
+- "session"
+- "setupWatchConnectivity"
+- "sessionDidDeactivate"
+- "sendRecipesToWatch"
+- "sessionDidBecomeInactive"
+depends-top-level:
+- !private "print"
+- !private "WatchRecipe"
+- !private "Dictionary"
+- "NSPersistentContainer"
+- "Error"
+- "WCSessionDelegate"
+- !private "AnyObject"
+- !private "StringLiteralType"
+- "WCSessionActivationState"
+- "Recipe"
+- "NotificationCenter"
+- "PhoneToWatchService"
+- "NSObject"
+- "Void"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- "WCSession"
+- "String"
+depends-member:
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- !private ["Ps9AnyObject", "Recipe"]
+- !private ["Ps9AnyObject", "WCSession"]
+- !private ["Ps9AnyObject", "activate"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "deinit"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "fetchAll"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isSupported"]
+- !private ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "notificationCenter"]
+- ["Ps9AnyObject", "notificationCenter.storage"]
+- ["Ps9AnyObject", "persistentContainer"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "sendRecipesToWatch"]
+- ["Ps9AnyObject", "session"]
+- ["Ps9AnyObject", "sessionDidBecomeInactive"]
+- ["Ps9AnyObject", "sessionDidDeactivate"]
+- ["Ps9AnyObject", "sessionReachabilityDidChange"]
+- ["Ps9AnyObject", "sessionWatchStateDidChange"]
+- ["Ps9AnyObject", "setupWatchConnectivity"]
+- !private ["Ps9AnyObject", "transferUserInfo"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Sa", "map"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "NotificationCenter"]
+- !private ["Ps7CVarArg", "Recipe"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "WCSession"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "activate"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "fetchAll"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isSupported"]
+- !private ["Ps7CVarArg", "keys"]
+- !private ["Ps7CVarArg", "map"]
+- !private ["Ps7CVarArg", "name"]
+- ["Ps7CVarArg", "notificationCenter"]
+- ["Ps7CVarArg", "notificationCenter.storage"]
+- ["Ps7CVarArg", "persistentContainer"]
+- !private ["Ps7CVarArg", "print"]
+- ["Ps7CVarArg", "sendRecipesToWatch"]
+- ["Ps7CVarArg", "session"]
+- ["Ps7CVarArg", "sessionDidBecomeInactive"]
+- ["Ps7CVarArg", "sessionDidDeactivate"]
+- ["Ps7CVarArg", "sessionReachabilityDidChange"]
+- ["Ps7CVarArg", "sessionWatchStateDidChange"]
+- ["Ps7CVarArg", "setupWatchConnectivity"]
+- !private ["Ps7CVarArg", "transferUserInfo"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Collection", "keys"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "NotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "Recipe"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "WCSession"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "activate"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "fetchAll"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isSupported"]
+- !private ["Ps28CustomDebugStringConvertible", "keys"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "notificationCenter"]
+- ["Ps28CustomDebugStringConvertible", "notificationCenter.storage"]
+- ["Ps28CustomDebugStringConvertible", "persistentContainer"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "sendRecipesToWatch"]
+- ["Ps28CustomDebugStringConvertible", "session"]
+- ["Ps28CustomDebugStringConvertible", "sessionDidBecomeInactive"]
+- ["Ps28CustomDebugStringConvertible", "sessionDidDeactivate"]
+- ["Ps28CustomDebugStringConvertible", "sessionReachabilityDidChange"]
+- ["Ps28CustomDebugStringConvertible", "sessionWatchStateDidChange"]
+- ["Ps28CustomDebugStringConvertible", "setupWatchConnectivity"]
+- !private ["Ps28CustomDebugStringConvertible", "transferUserInfo"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "keys"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "NotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "Recipe"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "WCSession"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "activate"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "fetchAll"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isSupported"]
+- !private ["Ps23CustomStringConvertible", "keys"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "notificationCenter"]
+- ["Ps23CustomStringConvertible", "notificationCenter.storage"]
+- ["Ps23CustomStringConvertible", "persistentContainer"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "sendRecipesToWatch"]
+- ["Ps23CustomStringConvertible", "session"]
+- ["Ps23CustomStringConvertible", "sessionDidBecomeInactive"]
+- ["Ps23CustomStringConvertible", "sessionDidDeactivate"]
+- ["Ps23CustomStringConvertible", "sessionReachabilityDidChange"]
+- ["Ps23CustomStringConvertible", "sessionWatchStateDidChange"]
+- ["Ps23CustomStringConvertible", "setupWatchConnectivity"]
+- !private ["Ps23CustomStringConvertible", "transferUserInfo"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Iterator"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "keys"]
+- !private ["Vs18DictionaryIterator", "Element"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "NotificationCenter"]
+- !private ["Ps9Equatable", "Recipe"]
+- !private ["Ps9Equatable", "WCSession"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "activate"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "fetchAll"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isSupported"]
+- !private ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "notificationCenter"]
+- ["Ps9Equatable", "notificationCenter.storage"]
+- ["Ps9Equatable", "persistentContainer"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "sendRecipesToWatch"]
+- ["Ps9Equatable", "session"]
+- ["Ps9Equatable", "sessionDidBecomeInactive"]
+- ["Ps9Equatable", "sessionDidDeactivate"]
+- ["Ps9Equatable", "sessionReachabilityDidChange"]
+- ["Ps9Equatable", "sessionWatchStateDidChange"]
+- ["Ps9Equatable", "setupWatchConnectivity"]
+- !private ["Ps9Equatable", "transferUserInfo"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "keys"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "NotificationCenter"]
+- !private ["Ps8Hashable", "Recipe"]
+- !private ["Ps8Hashable", "WCSession"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "activate"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "fetchAll"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isSupported"]
+- !private ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "notificationCenter"]
+- ["Ps8Hashable", "notificationCenter.storage"]
+- ["Ps8Hashable", "persistentContainer"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "sendRecipesToWatch"]
+- ["Ps8Hashable", "session"]
+- ["Ps8Hashable", "sessionDidBecomeInactive"]
+- ["Ps8Hashable", "sessionDidDeactivate"]
+- ["Ps8Hashable", "sessionReachabilityDidChange"]
+- ["Ps8Hashable", "sessionWatchStateDidChange"]
+- ["Ps8Hashable", "setupWatchConnectivity"]
+- !private ["Ps8Hashable", "transferUserInfo"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "first"]
+- !private ["Ps9Indexable", "keys"]
+- !private ["Ps9Indexable", "map"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "first"]
+- !private ["Ps13IndexableBase", "keys"]
+- !private ["Ps13IndexableBase", "map"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps22LazyCollectionProtocol", "Iterator"]
+- !private ["Ps22LazyCollectionProtocol", "first"]
+- !private ["Vs17LazyMapCollection", "Iterator"]
+- ["Vs17LazyMapCollection", "deinit"]
+- !private ["Vs17LazyMapCollection", "first"]
+- !private ["Vs15LazyMapIterator", "Element"]
+- !private ["Ps20LazySequenceProtocol", "Iterator"]
+- !private ["Ps20LazySequenceProtocol", "first"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "map"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo20NSFetchRequestResult", "fetchAll"]
+- !private ["PSo20NSFetchRequestResult", "name"]
+- !private ["CSo15NSManagedObject", "fetchAll"]
+- !private ["CSo15NSManagedObject", "name"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Error"]
+- ["CSo8NSObject", "NSPersistentContainer"]
+- ["CSo8NSObject", "NotificationCenter"]
+- ["CSo8NSObject", "Recipe"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "WCSession"]
+- ["CSo8NSObject", "WCSessionActivationState"]
+- !private ["CSo8NSObject", "WatchRecipe"]
+- !private ["CSo8NSObject", "activate"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "fetchAll"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isSupported"]
+- !private ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "notificationCenter"]
+- ["CSo8NSObject", "notificationCenter.storage"]
+- ["CSo8NSObject", "persistentContainer"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "sendRecipesToWatch"]
+- ["CSo8NSObject", "session"]
+- ["CSo8NSObject", "sessionDidBecomeInactive"]
+- ["CSo8NSObject", "sessionDidDeactivate"]
+- ["CSo8NSObject", "sessionReachabilityDidChange"]
+- ["CSo8NSObject", "sessionWatchStateDidChange"]
+- ["CSo8NSObject", "setupWatchConnectivity"]
+- !private ["CSo8NSObject", "transferUserInfo"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "NotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "Recipe"]
+- !private ["PSo16NSObjectProtocol", "WCSession"]
+- !private ["PSo16NSObjectProtocol", "activate"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "fetchAll"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isSupported"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "notificationCenter"]
+- ["PSo16NSObjectProtocol", "notificationCenter.storage"]
+- ["PSo16NSObjectProtocol", "persistentContainer"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "sendRecipesToWatch"]
+- ["PSo16NSObjectProtocol", "session"]
+- ["PSo16NSObjectProtocol", "sessionDidBecomeInactive"]
+- ["PSo16NSObjectProtocol", "sessionDidDeactivate"]
+- ["PSo16NSObjectProtocol", "sessionReachabilityDidChange"]
+- ["PSo16NSObjectProtocol", "sessionWatchStateDidChange"]
+- ["PSo16NSObjectProtocol", "setupWatchConnectivity"]
+- !private ["PSo16NSObjectProtocol", "transferUserInfo"]
+- ["PSo16NSObjectProtocol", ""]
+- ["CSo21NSPersistentContainer", "deinit"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- !private ["CSo18NotificationCenter", "default"]
+- !private ["CSo18NotificationCenter", "deinit"]
+- ["Sq", "deinit"]
+- !private ["C9HungryBoi19PhoneToWatchService", "AnyObject"]
+- ["C9HungryBoi19PhoneToWatchService", "Error"]
+- ["C9HungryBoi19PhoneToWatchService", "NSPersistentContainer"]
+- ["C9HungryBoi19PhoneToWatchService", "NotificationCenter"]
+- ["C9HungryBoi19PhoneToWatchService", "Recipe"]
+- ["C9HungryBoi19PhoneToWatchService", "String"]
+- ["C9HungryBoi19PhoneToWatchService", "Void"]
+- ["C9HungryBoi19PhoneToWatchService", "WCSession"]
+- ["C9HungryBoi19PhoneToWatchService", "WCSessionActivationState"]
+- !private ["C9HungryBoi19PhoneToWatchService", "WatchRecipe"]
+- ["C9HungryBoi19PhoneToWatchService", "deinit"]
+- ["C9HungryBoi19PhoneToWatchService", "init"]
+- !private ["C9HungryBoi19PhoneToWatchService", "notificationCenter"]
+- !private ["C9HungryBoi19PhoneToWatchService", "notificationCenter.storage"]
+- ["C9HungryBoi19PhoneToWatchService", "persistentContainer"]
+- !private ["C9HungryBoi19PhoneToWatchService", "print"]
+- ["C9HungryBoi19PhoneToWatchService", "sendRecipesToWatch"]
+- ["C9HungryBoi19PhoneToWatchService", "session"]
+- ["C9HungryBoi19PhoneToWatchService", "sessionDidBecomeInactive"]
+- ["C9HungryBoi19PhoneToWatchService", "sessionDidDeactivate"]
+- ["C9HungryBoi19PhoneToWatchService", "sessionReachabilityDidChange"]
+- ["C9HungryBoi19PhoneToWatchService", "sessionWatchStateDidChange"]
+- ["C9HungryBoi19PhoneToWatchService", "setupWatchConnectivity"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "map"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "map"]
+- !private ["C9HungryBoi6Recipe", "deinit"]
+- !private ["C9HungryBoi6Recipe", "fetchAll"]
+- !private ["C9HungryBoi6Recipe", "name"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps8Sequence", "keys"]
+- !private ["Ps8Sequence", "map"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["CSo9WCSession", "activate"]
+- !private ["CSo9WCSession", "default"]
+- ["CSo9WCSession", "deinit"]
+- !private ["CSo9WCSession", "delegate"]
+- !private ["CSo9WCSession", "isSupported"]
+- !private ["CSo9WCSession", "transferUserInfo"]
+- !private ["PSo17WCSessionDelegate", "NotificationCenter"]
+- !private ["PSo17WCSessionDelegate", "Recipe"]
+- !private ["PSo17WCSessionDelegate", "WCSession"]
+- !private ["PSo17WCSessionDelegate", "persistentContainer"]
+- !private ["PSo17WCSessionDelegate", "print"]
+- !private ["PSo17WCSessionDelegate", "sendRecipesToWatch"]
+- ["PSo17WCSessionDelegate", "session"]
+- ["PSo17WCSessionDelegate", "sessionDidBecomeInactive"]
+- ["PSo17WCSessionDelegate", "sessionDidDeactivate"]
+- ["PSo17WCSessionDelegate", "sessionReachabilityDidChange"]
+- ["PSo17WCSessionDelegate", "sessionWatchStateDidChange"]
+- ["PSo17WCSessionDelegate", ""]
+- ["CSo25WCSessionUserInfoTransfer", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "NotificationCenter"]
+- !private ["Ps9_Hashable", "Recipe"]
+- !private ["Ps9_Hashable", "WCSession"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "activate"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "fetchAll"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isSupported"]
+- !private ["Ps9_Hashable", "name"]
+- ["Ps9_Hashable", "notificationCenter"]
+- ["Ps9_Hashable", "notificationCenter.storage"]
+- ["Ps9_Hashable", "persistentContainer"]
+- !private ["Ps9_Hashable", "print"]
+- ["Ps9_Hashable", "sendRecipesToWatch"]
+- ["Ps9_Hashable", "session"]
+- ["Ps9_Hashable", "sessionDidBecomeInactive"]
+- ["Ps9_Hashable", "sessionDidDeactivate"]
+- ["Ps9_Hashable", "sessionReachabilityDidChange"]
+- ["Ps9_Hashable", "sessionWatchStateDidChange"]
+- ["Ps9_Hashable", "setupWatchConnectivity"]
+- !private ["Ps9_Hashable", "transferUserInfo"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "keys"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "Vs18DictionaryIterator"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps16IteratorProtocol"
+- !private "Ps22LazyCollectionProtocol"
+- "Vs17LazyMapCollection"
+- !private "Vs15LazyMapIterator"
+- !private "Ps20LazySequenceProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo20NSFetchRequestResult"
+- !private "CSo15NSManagedObject"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo21NSPersistentContainer"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Os5Never"
+- !private "CSo18NotificationCenter"
+- "Sq"
+- "C9HungryBoi19PhoneToWatchService"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "C9HungryBoi6Recipe"
+- !private "Ps8Sequence"
+- "Vs12StaticString"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- "CSo9WCSession"
+- "PSo17WCSessionDelegate"
+- "CSo25WCSessionUserInfoTransfer"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Products/Debug-iphonesimulator/HungryBoiCommon.framework/Modules/HungryBoiCommon.swiftmodule/x86_64.swiftmodule"
+- "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Products/Debug-iphonesimulator/HungryBoiCommon.framework/Headers/HungryBoiCommon-Swift.h"
+- "/Users/leokwan/Development/Hungry-Boi/HungryBoiCommon/HungryBoiCommon.h"
+- "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Intermediates/HungryBoi.build/Debug-iphonesimulator/HungryBoiCommon.build/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WatchKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "f7a29e1a56b3c6deba06cee2da4bb2ca"

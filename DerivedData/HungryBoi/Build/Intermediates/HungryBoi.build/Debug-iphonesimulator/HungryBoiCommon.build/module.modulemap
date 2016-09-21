@@ -1,0 +1,10 @@
+framework module HungryBoiCommon {
+  umbrella header "HungryBoiCommon.h"
+
+  export *
+  module * { export * }
+}
+
+module HungryBoiCommon.Swift {
+    header "HungryBoiCommon-Swift.h"
+}

@@ -1,0 +1,166 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Recipe"
+provides-nominal:
+- "C15HungryBoiCommon6Recipe"
+provides-member:
+- ["C15HungryBoiCommon6Recipe", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSManagedObjectContext"
+- !private "NSEntityDescription"
+- "String"
+- !private "StringLiteralType"
+- "NSManagedObject"
+- "Recipe"
+- "AssignmentPrecedence"
+depends-member:
+- !private ["Ps9AnyObject", "NSEntityDescription"]
+- !private ["Ps9AnyObject", "entity"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "NSEntityDescription"]
+- !private ["Ps7CVarArg", "entity"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "name"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "NSEntityDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "entity"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "NSEntityDescription"]
+- !private ["Ps23CustomStringConvertible", "entity"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSEntityDescription"]
+- !private ["Ps9Equatable", "entity"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "name"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "NSEntityDescription"]
+- !private ["Ps8Hashable", "entity"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "name"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "entity"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "entity"]
+- !private ["PSo9NSCopying", "init"]
+- ["CSo19NSEntityDescription", "deinit"]
+- !private ["CSo19NSEntityDescription", "entity"]
+- !private ["PSo17NSFastEnumeration", "entity"]
+- !private ["PSo20NSFetchRequestResult", "NSEntityDescription"]
+- ["PSo20NSFetchRequestResult", "init"]
+- !private ["PSo20NSFetchRequestResult", "name"]
+- ["PSo20NSFetchRequestResult", ""]
+- !private ["CSo15NSManagedObject", "NSEntityDescription"]
+- ["CSo15NSManagedObject", "NSManagedObjectContext"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "deinit"]
+- ["CSo15NSManagedObject", "init"]
+- !private ["CSo15NSManagedObject", "name"]
+- ["CSo15NSManagedObject", ""]
+- ["CSo22NSManagedObjectContext", "deinit"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "NSEntityDescription"]
+- ["CSo8NSObject", "NSManagedObjectContext"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "entity"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "name"]
+- !private ["PSo16NSObjectProtocol", "NSEntityDescription"]
+- !private ["PSo16NSObjectProtocol", "entity"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["C15HungryBoiCommon6Recipe", "NSEntityDescription"]
+- ["C15HungryBoiCommon6Recipe", "NSManagedObjectContext"]
+- ["C15HungryBoiCommon6Recipe", "String"]
+- ["C15HungryBoiCommon6Recipe", "deinit"]
+- ["C15HungryBoiCommon6Recipe", "init"]
+- !private ["C15HungryBoiCommon6Recipe", "name"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "NSEntityDescription"]
+- !private ["Ps9_Hashable", "entity"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "name"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo19NSEntityDescription"
+- !private "PSo17NSFastEnumeration"
+- "PSo20NSFetchRequestResult"
+- "CSo15NSManagedObject"
+- "CSo22NSManagedObjectContext"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "C15HungryBoiCommon6Recipe"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/leokwan/Development/Hungry-Boi/HungryBoiCommon/HungryBoiCommon.h"
+- "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Intermediates/HungryBoi.build/Debug-iphoneos/HungryBoiCommon.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+interface-hash: "63c6a79aab58c90c4321349e39965430"

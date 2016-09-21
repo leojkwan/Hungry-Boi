@@ -1,0 +1,333 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C9HungryBoi6Recipe", ""]
+- ["C9HungryBoi6Recipe", "fetchRequest"]
+- ["C9HungryBoi6Recipe", "name"]
+- ["C9HungryBoi6Recipe", "fetch"]
+provides-dynamic-lookup:
+- "fetch"
+- "name"
+depends-top-level:
+- "NSPersistentContainer"
+- !private "NSAsynchronousFetchRequest"
+- !private "Array"
+- "NSFetchRequest"
+- "AssignmentPrecedence"
+- !private "NSSortDescriptor"
+- "String"
+- !private "StringLiteralType"
+- "Void"
+- !private "BooleanLiteralType"
+- "Recipe"
+depends-member:
+- !private ["Ps9AnyObject", "NSAsynchronousFetchRequest"]
+- !private ["Ps9AnyObject", "NSFetchRequest"]
+- !private ["Ps9AnyObject", "NSSortDescriptor"]
+- !private ["Ps9AnyObject", "Recipe"]
+- !private ["Ps9AnyObject", "execute"]
+- ["Ps9AnyObject", "fetch"]
+- ["Ps9AnyObject", "fetchRequest"]
+- !private ["Ps9AnyObject", "finalResult"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "returnsObjectsAsFaults"]
+- !private ["Ps9AnyObject", "sortDescriptors"]
+- !private ["Ps9AnyObject", "viewContext"]
+- !private ["Sa", "Element"]
+- ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "NSAsynchronousFetchRequest"]
+- !private ["Ps7CVarArg", "NSFetchRequest"]
+- !private ["Ps7CVarArg", "NSSortDescriptor"]
+- !private ["Ps7CVarArg", "Recipe"]
+- !private ["Ps7CVarArg", "execute"]
+- ["Ps7CVarArg", "fetch"]
+- ["Ps7CVarArg", "fetchRequest"]
+- !private ["Ps7CVarArg", "finalResult"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "name"]
+- !private ["Ps7CVarArg", "returnsObjectsAsFaults"]
+- !private ["Ps7CVarArg", "sortDescriptors"]
+- !private ["Ps7CVarArg", "viewContext"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "NSAsynchronousFetchRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "NSFetchRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "NSSortDescriptor"]
+- !private ["Ps28CustomDebugStringConvertible", "Recipe"]
+- !private ["Ps28CustomDebugStringConvertible", "execute"]
+- ["Ps28CustomDebugStringConvertible", "fetch"]
+- ["Ps28CustomDebugStringConvertible", "fetchRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "finalResult"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "returnsObjectsAsFaults"]
+- !private ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps28CustomDebugStringConvertible", "sortDescriptors"]
+- !private ["Ps28CustomDebugStringConvertible", "viewContext"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "NSAsynchronousFetchRequest"]
+- !private ["Ps23CustomStringConvertible", "NSFetchRequest"]
+- !private ["Ps23CustomStringConvertible", "NSSortDescriptor"]
+- !private ["Ps23CustomStringConvertible", "Recipe"]
+- !private ["Ps23CustomStringConvertible", "execute"]
+- ["Ps23CustomStringConvertible", "fetch"]
+- ["Ps23CustomStringConvertible", "fetchRequest"]
+- !private ["Ps23CustomStringConvertible", "finalResult"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "name"]
+- !private ["Ps23CustomStringConvertible", "returnsObjectsAsFaults"]
+- !private ["Ps23CustomStringConvertible", "sortDescriptors"]
+- !private ["Ps23CustomStringConvertible", "viewContext"]
+- !private ["Ps9Equatable", "NSAsynchronousFetchRequest"]
+- !private ["Ps9Equatable", "NSFetchRequest"]
+- !private ["Ps9Equatable", "NSSortDescriptor"]
+- !private ["Ps9Equatable", "Recipe"]
+- !private ["Ps9Equatable", "execute"]
+- ["Ps9Equatable", "fetch"]
+- ["Ps9Equatable", "fetchRequest"]
+- !private ["Ps9Equatable", "finalResult"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "name"]
+- !private ["Ps9Equatable", "returnsObjectsAsFaults"]
+- !private ["Ps9Equatable", "sortDescriptors"]
+- !private ["Ps9Equatable", "viewContext"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "NSAsynchronousFetchRequest"]
+- !private ["Ps8Hashable", "NSFetchRequest"]
+- !private ["Ps8Hashable", "NSSortDescriptor"]
+- !private ["Ps8Hashable", "Recipe"]
+- !private ["Ps8Hashable", "execute"]
+- ["Ps8Hashable", "fetch"]
+- ["Ps8Hashable", "fetchRequest"]
+- !private ["Ps8Hashable", "finalResult"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "name"]
+- !private ["Ps8Hashable", "returnsObjectsAsFaults"]
+- !private ["Ps8Hashable", "sortDescriptors"]
+- !private ["Ps8Hashable", "viewContext"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- ["CSo26NSAsynchronousFetchRequest", "deinit"]
+- !private ["CSo26NSAsynchronousFetchRequest", "init"]
+- !private ["CSo25NSAsynchronousFetchResult", "deinit"]
+- !private ["CSo25NSAsynchronousFetchResult", "finalResult"]
+- !private ["PSo8NSCoding", "execute"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "returnsObjectsAsFaults"]
+- !private ["PSo8NSCoding", "sortDescriptors"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "returnsObjectsAsFaults"]
+- !private ["PSo9NSCopying", "sortDescriptors"]
+- ["CSo14NSFetchRequest", "deinit"]
+- !private ["CSo14NSFetchRequest", "init"]
+- !private ["CSo14NSFetchRequest", "returnsObjectsAsFaults"]
+- !private ["CSo14NSFetchRequest", "sortDescriptors"]
+- !private ["PSo20NSFetchRequestResult", "NSAsynchronousFetchRequest"]
+- !private ["PSo20NSFetchRequestResult", "NSFetchRequest"]
+- !private ["PSo20NSFetchRequestResult", "NSSortDescriptor"]
+- !private ["PSo20NSFetchRequestResult", "Recipe"]
+- ["PSo20NSFetchRequestResult", "fetch"]
+- ["PSo20NSFetchRequestResult", "fetchRequest"]
+- ["PSo20NSFetchRequestResult", "name"]
+- !private ["PSo9NSLocking", "execute"]
+- !private ["CSo15NSManagedObject", "NSAsynchronousFetchRequest"]
+- ["CSo15NSManagedObject", "NSFetchRequest"]
+- ["CSo15NSManagedObject", "NSPersistentContainer"]
+- !private ["CSo15NSManagedObject", "NSSortDescriptor"]
+- ["CSo15NSManagedObject", "Recipe"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "Void"]
+- ["CSo15NSManagedObject", "fetch"]
+- ["CSo15NSManagedObject", "fetchRequest"]
+- ["CSo15NSManagedObject", "name"]
+- ["CSo22NSManagedObjectContext", "deinit"]
+- !private ["CSo22NSManagedObjectContext", "execute"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "NSAsynchronousFetchRequest"]
+- ["CSo8NSObject", "NSFetchRequest"]
+- ["CSo8NSObject", "NSPersistentContainer"]
+- !private ["CSo8NSObject", "NSSortDescriptor"]
+- ["CSo8NSObject", "Recipe"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "execute"]
+- ["CSo8NSObject", "fetch"]
+- ["CSo8NSObject", "fetchRequest"]
+- !private ["CSo8NSObject", "finalResult"]
+- !private ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "name"]
+- !private ["CSo8NSObject", "returnsObjectsAsFaults"]
+- !private ["CSo8NSObject", "sortDescriptors"]
+- !private ["CSo8NSObject", "viewContext"]
+- !private ["PSo16NSObjectProtocol", "NSAsynchronousFetchRequest"]
+- !private ["PSo16NSObjectProtocol", "NSFetchRequest"]
+- !private ["PSo16NSObjectProtocol", "NSSortDescriptor"]
+- !private ["PSo16NSObjectProtocol", "Recipe"]
+- !private ["PSo16NSObjectProtocol", "execute"]
+- ["PSo16NSObjectProtocol", "fetch"]
+- ["PSo16NSObjectProtocol", "fetchRequest"]
+- !private ["PSo16NSObjectProtocol", "finalResult"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "name"]
+- !private ["PSo16NSObjectProtocol", "returnsObjectsAsFaults"]
+- !private ["PSo16NSObjectProtocol", "sortDescriptors"]
+- !private ["PSo16NSObjectProtocol", "viewContext"]
+- ["CSo21NSPersistentContainer", "deinit"]
+- !private ["CSo21NSPersistentContainer", "viewContext"]
+- !private ["CSo35NSPersistentStoreAsynchronousResult", "finalResult"]
+- !private ["CSo24NSPersistentStoreRequest", "returnsObjectsAsFaults"]
+- !private ["CSo24NSPersistentStoreRequest", "sortDescriptors"]
+- ["CSo23NSPersistentStoreResult", "deinit"]
+- !private ["CSo23NSPersistentStoreResult", "finalResult"]
+- !private ["PSo14NSSecureCoding", "init"]
+- ["CSo16NSSortDescriptor", "deinit"]
+- !private ["CSo16NSSortDescriptor", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "deinit"]
+- !private ["Sq", "some"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["C9HungryBoi6Recipe", "NSAsynchronousFetchRequest"]
+- ["C9HungryBoi6Recipe", "NSFetchRequest"]
+- ["C9HungryBoi6Recipe", "NSPersistentContainer"]
+- !private ["C9HungryBoi6Recipe", "NSSortDescriptor"]
+- ["C9HungryBoi6Recipe", "Recipe"]
+- ["C9HungryBoi6Recipe", "String"]
+- ["C9HungryBoi6Recipe", "Void"]
+- ["C9HungryBoi6Recipe", "deinit"]
+- ["C9HungryBoi6Recipe", "fetch"]
+- ["C9HungryBoi6Recipe", "fetchRequest"]
+- ["C9HungryBoi6Recipe", "name"]
+- !private ["Ps8Sequence", "Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "NSAsynchronousFetchRequest"]
+- !private ["Ps9_Hashable", "NSFetchRequest"]
+- !private ["Ps9_Hashable", "NSSortDescriptor"]
+- !private ["Ps9_Hashable", "Recipe"]
+- !private ["Ps9_Hashable", "execute"]
+- ["Ps9_Hashable", "fetch"]
+- ["Ps9_Hashable", "fetchRequest"]
+- !private ["Ps9_Hashable", "finalResult"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "name"]
+- !private ["Ps9_Hashable", "returnsObjectsAsFaults"]
+- !private ["Ps9_Hashable", "sortDescriptors"]
+- !private ["Ps9_Hashable", "viewContext"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "CSo26NSAsynchronousFetchRequest"
+- !private "CSo25NSAsynchronousFetchResult"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo14NSFetchRequest"
+- "PSo20NSFetchRequestResult"
+- !private "PSo9NSLocking"
+- "CSo15NSManagedObject"
+- "CSo22NSManagedObjectContext"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo21NSPersistentContainer"
+- !private "CSo35NSPersistentStoreAsynchronousResult"
+- !private "CSo24NSPersistentStoreRequest"
+- "CSo23NSPersistentStoreResult"
+- !private "PSo14NSSecureCoding"
+- "CSo16NSSortDescriptor"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "C9HungryBoi6Recipe"
+- !private "Ps8Sequence"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Products/Debug-iphoneos/HungryBoiCommon.framework/Modules/HungryBoiCommon.swiftmodule/arm64.swiftmodule"
+- "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Products/Debug-iphoneos/HungryBoiCommon.framework/Headers/HungryBoiCommon-Swift.h"
+- "/Users/leokwan/Development/Hungry-Boi/HungryBoiCommon/HungryBoiCommon.h"
+- "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Intermediates/HungryBoi.build/Debug-iphoneos/HungryBoiCommon.build/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "5de6e9bf0a99f6e46dfad7a02e48fce9"

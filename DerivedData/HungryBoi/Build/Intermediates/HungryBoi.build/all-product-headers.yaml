@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Products/Debug-iphonesimulator/HungryBoiCommon.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "HungryBoiCommon-Swift.h",
+          'external-contents': "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Products/Debug-iphonesimulator/HungryBoiCommon.framework/Headers/HungryBoiCommon-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "HungryBoiCommon.h",
+          'external-contents': "/Users/leokwan/Development/Hungry-Boi/HungryBoiCommon/HungryBoiCommon.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Products/Debug-iphonesimulator/HungryBoiCommon.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Intermediates/HungryBoi.build/Debug-iphonesimulator/HungryBoiCommon.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

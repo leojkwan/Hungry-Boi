@@ -7,18 +7,10 @@ import WatchConnectivity
 
 class FoodDataSource {
   
-  private var recipes: [Recipe]
+  internal private(set) var recipes: [Recipe]
   
   init(recipes: [Recipe]) {
     self.recipes = recipes
-  }
-  
-  func numberOfRecipes(in section: Int)-> Int {
-    // we only have 1 section for now,
-    // just return recipes array count.
-    print(recipes.count)
-    return recipes.count
-    
   }
   
   func numberOfSections()-> Int {
@@ -34,19 +26,13 @@ class FoodDataSource {
     let recipeAtIndexPath: Recipe = recipes[indexPath.row]
     return recipeAtIndexPath.name 
   }
-  //
-  //  func imageForRecipe(at indexPath: IndexPath)-> UIImage? {
-  //    let recipeAtIndexPath = recipes[indexPath.row]
-  //    return recipeAtIndexPath.image
-  //  }
 }
 
 class FoodRecipeViewController: UITableViewController {
   
-  var foodDataSource: FoodDataSource!
-  var recipes: [Recipe]?
+  var foodDataSource: FoodDataSource?
   var persistentContainer: NSPersistentContainer!
-//  let watchService = PhoneToWatchService.sharedInstance
+  var watchService: PhoneToWatchService!
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -56,20 +42,24 @@ class FoodRecipeViewController: UITableViewController {
   }
   
   func delete(at index: Int) {
+    
+    guard let foodDataSource = foodDataSource else {
+      return
+    }
+    
     let context = persistentContainer.viewContext
-    
     let removedRecipe = foodDataSource.removeRecipe(at: index)
-    
     context.delete(removedRecipe)
-    
     try! context.save()
+    self.watchService.sendRecipesToWatch(recipes: foodDataSource.recipes)
   }
   
   private func updateTableViewRecipes() {
-    Recipe.fetch(from: persistentContainer) { [unowned self] fetchedRecipes in
-      self.recipes = fetchedRecipes
+    
+    Recipe.fetchAll(from: persistentContainer) { [unowned self] fetchedRecipes in
       self.foodDataSource = FoodDataSource(recipes: fetchedRecipes)
       self.tableView.reloadSections(IndexSet(integer:0), with: .fade)
+      self.watchService.sendRecipesToWatch(recipes: fetchedRecipes)
     }
   }
   
@@ -102,10 +92,11 @@ class FoodRecipeViewController: UITableViewController {
   }
 
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    if recipes == nil {
+    guard let foodDataSource = foodDataSource else {
       return 0
     }
-    return foodDataSource.numberOfRecipes(in: section)
+    
+    return foodDataSource.recipes.count
   }
   
   override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -123,12 +114,18 @@ class FoodRecipeViewController: UITableViewController {
   }
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    
+    guard let foodDataSource = foodDataSource else {
+      fatalError("Did not instantiate food data source")
+    }
+    
     let cell = tableView.dequeueReusableCell(
       withIdentifier: FoodTableViewCell.identifier,
       for: indexPath
       ) as! FoodTableViewCell
+    
+    
     cell.foodNameLabel.text = foodDataSource.titleForRecipe(at: indexPath)
-    //    cell.foodImageView.image = foodDataSource.imageForRecipe(at: indexPath)
     return cell
   }
   

@@ -12,29 +12,36 @@ public final class PhoneToWatchService: NSObject, WCSessionDelegate {
     return NotificationCenter.default
   }()
   
-  
-  private var watchDataManager: WatchDataManager?
-  
+//  private var watchDataManager: WatchDataManager?
+
   init(persistentContainer: NSPersistentContainer) {
     self.persistentContainer = persistentContainer
   }
   
+  public func sendRecipesToWatch(recipes: [Recipe]) {
+    
+    let watchRecipes = recipes.map({ (recipe) -> WatchRecipe in
+      return [recipe.name: recipe.name as AnyObject]
+    })
+    
+    if WCSession.isSupported() {
+      WCSession.default().transferUserInfo(["recipes": watchRecipes])
+    }
+  }
+  
+  public func session(_ session: WCSession, didReceiveMessage message: [String : Any], replyHandler: @escaping ([String : Any]) -> Void) {
+    print(message)
+  }
   
   public func session(_ session: WCSession, didReceiveApplicationContext applicationContext: [String : Any]) {
     print("Phone->Watch Receiving Context: \(applicationContext)")
   }
   
   public func session(_ session: WCSession, didReceiveUserInfo userInfo: [String : Any] = [:]) {
-    
     if userInfo.keys.first == "GET_Recipes" {
       
-      if watchDataManager == nil {
-        // First time
-        setupCoreDataWatchManager(persistentContainer: persistentContainer)
-      }
-      
-      watchDataManager!.generateWatchRecipes { (watchRecipes) in
-        self.sendRecipesToWatch(recipes: watchRecipes)
+      Recipe.fetchAll(from: persistentContainer) { [weak self] (recipes) in
+        self?.sendRecipesToWatch(recipes: recipes)
       }
     }
   }
@@ -48,17 +55,11 @@ public final class PhoneToWatchService: NSObject, WCSessionDelegate {
   }
   
   
-  // Called when app is started up
-  func setupCoreDataWatchManager(persistentContainer:NSPersistentContainer) {
-    watchDataManager = WatchDataManager(persistentContainer: persistentContainer)
-  }
-  
-  
-  public func sendRecipesToWatch(recipes: [WatchRecipe]) {
-    if WCSession.isSupported() {
-      WCSession.default().transferUserInfo(["recipes": recipes])
-    }
-  }
+//  public func sendRecipesToWatch(recipes: [WatchRecipe]) {
+//    if WCSession.isSupported() {
+//      WCSession.default().transferUserInfo(["recipes": recipes])
+//    }
+//  }
 }
 
 

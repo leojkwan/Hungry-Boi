@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94941F791D9084730065EA60 /* WatchDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E97F221D8C891200E25C3A /* WatchDataManager.swift */; };
-		94941F7A1D908B760065EA60 /* WatchDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E97F221D8C891200E25C3A /* WatchDataManager.swift */; };
 		94941F7D1D9098390065EA60 /* WatchRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94941F7C1D9098390065EA60 /* WatchRecipe.swift */; };
 		94941F7E1D909A290065EA60 /* WatchRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94941F7C1D9098390065EA60 /* WatchRecipe.swift */; };
 		94941F7F1D909A2B0065EA60 /* WatchRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94941F7C1D9098390065EA60 /* WatchRecipe.swift */; };
@@ -173,7 +171,6 @@
 		94E97F111D8C879400E25C3A /* HungryBoiCommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungryBoiCommonTests.swift; sourceTree = "<group>"; };
 		94E97F131D8C879400E25C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E97F201D8C88E200E25C3A /* PhoneToWatchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneToWatchService.swift; sourceTree = "<group>"; };
-		94E97F221D8C891200E25C3A /* WatchDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,7 +319,6 @@
 		94E97F031D8C879400E25C3A /* HungryBoiCommon */ = {
 			isa = PBXGroup;
 			children = (
-				94E97F221D8C891200E25C3A /* WatchDataManager.swift */,
 				94941F7C1D9098390065EA60 /* WatchRecipe.swift */,
 				94E97ED01D8C7C6500E25C3A /* Recipe+CoreDataClass.swift */,
 				94E97ED11D8C7C6500E25C3A /* Recipe+CoreDataProperties.swift */,
@@ -626,7 +622,6 @@
 				9497BB2A1D8C519900E45158 /* FoodTableViewCell.swift in Sources */,
 				94DEBD9C1D8C9239007CB232 /* Recipe+CoreDataProperties.swift in Sources */,
 				94DEBD9D1D8C923C007CB232 /* HungryBoi.xcdatamodeld in Sources */,
-				94941F7A1D908B760065EA60 /* WatchDataManager.swift in Sources */,
 				94941F7E1D909A290065EA60 /* WatchRecipe.swift in Sources */,
 				94E97F211D8C88E200E25C3A /* PhoneToWatchService.swift in Sources */,
 				9497BAF61D8C4AD900E45158 /* AppDelegate.swift in Sources */,
@@ -668,7 +663,6 @@
 			files = (
 				94DEBD981D8C91D8007CB232 /* Recipe+CoreDataProperties.swift in Sources */,
 				94941F7D1D9098390065EA60 /* WatchRecipe.swift in Sources */,
-				94941F791D9084730065EA60 /* WatchDataManager.swift in Sources */,
 				94DEBD991D8C91D8007CB232 /* Recipe+CoreDataClass.swift in Sources */,
 				94DEBD921D8C909A007CB232 /* HungryBoi.xcdatamodeld in Sources */,
 			);

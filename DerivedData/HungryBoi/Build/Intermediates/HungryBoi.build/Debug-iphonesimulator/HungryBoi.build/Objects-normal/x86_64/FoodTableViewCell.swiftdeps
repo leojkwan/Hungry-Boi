@@ -1,0 +1,508 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FoodTableViewCell"
+provides-nominal:
+- "C9HungryBoi17FoodTableViewCell"
+provides-member:
+- ["C9HungryBoi17FoodTableViewCell", ""]
+provides-dynamic-lookup:
+- "identifier"
+- "recipe"
+- "foodNameLabel"
+- "foodImageView"
+- "awakeFromNib"
+depends-top-level:
+- "UIImageView"
+- "UILabel"
+- "AssignmentPrecedence"
+- "FoodTableViewCell"
+- "StringLiteralType"
+- "UITableViewCell"
+- !private "UIEdgeInsets"
+- "Recipe"
+- !private "BooleanLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "UIEdgeInsets"]
+- ["Ps9AnyObject", "awakeFromNib"]
+- ["Ps9AnyObject", "foodImageView"]
+- ["Ps9AnyObject", "foodNameLabel"]
+- ["Ps9AnyObject", "identifier"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layoutIfNeeded"]
+- !private ["Ps9AnyObject", "layoutMargins"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "preservesSuperviewLayoutMargins"]
+- ["Ps9AnyObject", "recipe"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "uppercased"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "UIEdgeInsets"]
+- ["PSo15CALayerDelegate", "awakeFromNib"]
+- ["PSo15CALayerDelegate", "foodImageView"]
+- ["PSo15CALayerDelegate", "foodNameLabel"]
+- ["PSo15CALayerDelegate", "identifier"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "layoutIfNeeded"]
+- !private ["PSo15CALayerDelegate", "layoutMargins"]
+- !private ["PSo15CALayerDelegate", "preservesSuperviewLayoutMargins"]
+- ["PSo15CALayerDelegate", "recipe"]
+- !private ["PSo15CALayerDelegate", "text"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "UIEdgeInsets"]
+- ["Ps7CVarArg", "awakeFromNib"]
+- ["Ps7CVarArg", "foodImageView"]
+- ["Ps7CVarArg", "foodNameLabel"]
+- ["Ps7CVarArg", "identifier"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "layoutIfNeeded"]
+- !private ["Ps7CVarArg", "layoutMargins"]
+- !private ["Ps7CVarArg", "name"]
+- !private ["Ps7CVarArg", "preservesSuperviewLayoutMargins"]
+- ["Ps7CVarArg", "recipe"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "uppercased"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "uppercased"]
+- !private ["Ps28CustomDebugStringConvertible", "UIEdgeInsets"]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- ["Ps28CustomDebugStringConvertible", "foodImageView"]
+- ["Ps28CustomDebugStringConvertible", "foodNameLabel"]
+- ["Ps28CustomDebugStringConvertible", "identifier"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layoutIfNeeded"]
+- !private ["Ps28CustomDebugStringConvertible", "layoutMargins"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "preservesSuperviewLayoutMargins"]
+- ["Ps28CustomDebugStringConvertible", "recipe"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "uppercased"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "uppercased"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps17CustomReflectable", "uppercased"]
+- !private ["Ps23CustomStringConvertible", "UIEdgeInsets"]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- ["Ps23CustomStringConvertible", "foodImageView"]
+- ["Ps23CustomStringConvertible", "foodNameLabel"]
+- ["Ps23CustomStringConvertible", "identifier"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layoutIfNeeded"]
+- !private ["Ps23CustomStringConvertible", "layoutMargins"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- !private ["Ps23CustomStringConvertible", "preservesSuperviewLayoutMargins"]
+- ["Ps23CustomStringConvertible", "recipe"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "uppercased"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "UIEdgeInsets"]
+- ["Ps9Equatable", "awakeFromNib"]
+- ["Ps9Equatable", "foodImageView"]
+- ["Ps9Equatable", "foodNameLabel"]
+- ["Ps9Equatable", "identifier"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layoutIfNeeded"]
+- !private ["Ps9Equatable", "layoutMargins"]
+- !private ["Ps9Equatable", "name"]
+- !private ["Ps9Equatable", "preservesSuperviewLayoutMargins"]
+- ["Ps9Equatable", "recipe"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "uppercased"]
+- !private ["Ps9Equatable", "zero"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "uppercased"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "uppercased"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "uppercased"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "uppercased"]
+- ["C9HungryBoi17FoodTableViewCell", "Recipe"]
+- !private ["C9HungryBoi17FoodTableViewCell", "UIEdgeInsets"]
+- ["C9HungryBoi17FoodTableViewCell", "UIImageView"]
+- ["C9HungryBoi17FoodTableViewCell", "UILabel"]
+- ["C9HungryBoi17FoodTableViewCell", "awakeFromNib"]
+- ["C9HungryBoi17FoodTableViewCell", "deinit"]
+- ["C9HungryBoi17FoodTableViewCell", "foodImageView"]
+- ["C9HungryBoi17FoodTableViewCell", "foodNameLabel"]
+- ["C9HungryBoi17FoodTableViewCell", "identifier"]
+- ["C9HungryBoi17FoodTableViewCell", "init"]
+- !private ["C9HungryBoi17FoodTableViewCell", "layoutIfNeeded"]
+- !private ["C9HungryBoi17FoodTableViewCell", "layoutMargins"]
+- !private ["C9HungryBoi17FoodTableViewCell", "preservesSuperviewLayoutMargins"]
+- ["C9HungryBoi17FoodTableViewCell", "recipe"]
+- !private ["Ps8Hashable", "UIEdgeInsets"]
+- ["Ps8Hashable", "awakeFromNib"]
+- ["Ps8Hashable", "foodImageView"]
+- ["Ps8Hashable", "foodNameLabel"]
+- ["Ps8Hashable", "identifier"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layoutIfNeeded"]
+- !private ["Ps8Hashable", "layoutMargins"]
+- !private ["Ps8Hashable", "name"]
+- !private ["Ps8Hashable", "preservesSuperviewLayoutMargins"]
+- ["Ps8Hashable", "recipe"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "uppercased"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "uppercased"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "uppercased"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "UIEdgeInsets"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "foodImageView"]
+- ["PSo8NSCoding", "foodNameLabel"]
+- ["PSo8NSCoding", "identifier"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layoutIfNeeded"]
+- !private ["PSo8NSCoding", "layoutMargins"]
+- !private ["PSo8NSCoding", "preservesSuperviewLayoutMargins"]
+- ["PSo8NSCoding", "recipe"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "uppercased"]
+- ["PSo8NSCoding", ""]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "uppercased"]
+- !private ["PSo20NSFetchRequestResult", "name"]
+- !private ["CSo15NSManagedObject", "name"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "uppercased"]
+- ["CSo8NSObject", "Recipe"]
+- !private ["CSo8NSObject", "UIEdgeInsets"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "foodImageView"]
+- ["CSo8NSObject", "foodNameLabel"]
+- ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layoutIfNeeded"]
+- !private ["CSo8NSObject", "layoutMargins"]
+- !private ["CSo8NSObject", "name"]
+- !private ["CSo8NSObject", "preservesSuperviewLayoutMargins"]
+- ["CSo8NSObject", "recipe"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "uppercased"]
+- !private ["PSo16NSObjectProtocol", "UIEdgeInsets"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "foodImageView"]
+- ["PSo16NSObjectProtocol", "foodNameLabel"]
+- ["PSo16NSObjectProtocol", "identifier"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layoutIfNeeded"]
+- !private ["PSo16NSObjectProtocol", "layoutMargins"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- !private ["PSo16NSObjectProtocol", "preservesSuperviewLayoutMargins"]
+- ["PSo16NSObjectProtocol", "recipe"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "uppercased"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "uppercased"]
+- ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "uppercased"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["C9HungryBoi6Recipe", "name"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- !private ["SS", "uppercased"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "uppercased"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "uppercased"]
+- !private ["PSo29UIAccessibilityIdentification", "UIEdgeInsets"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "foodImageView"]
+- ["PSo29UIAccessibilityIdentification", "foodNameLabel"]
+- ["PSo29UIAccessibilityIdentification", "identifier"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layoutIfNeeded"]
+- !private ["PSo29UIAccessibilityIdentification", "layoutMargins"]
+- !private ["PSo29UIAccessibilityIdentification", "preservesSuperviewLayoutMargins"]
+- ["PSo29UIAccessibilityIdentification", "recipe"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "UIEdgeInsets"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "foodImageView"]
+- ["PSo12UIAppearance", "foodNameLabel"]
+- ["PSo12UIAppearance", "identifier"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layoutIfNeeded"]
+- !private ["PSo12UIAppearance", "layoutMargins"]
+- !private ["PSo12UIAppearance", "preservesSuperviewLayoutMargins"]
+- ["PSo12UIAppearance", "recipe"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "UIEdgeInsets"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "foodImageView"]
+- ["PSo21UIAppearanceContainer", "foodNameLabel"]
+- ["PSo21UIAppearanceContainer", "identifier"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layoutIfNeeded"]
+- !private ["PSo21UIAppearanceContainer", "layoutMargins"]
+- !private ["PSo21UIAppearanceContainer", "preservesSuperviewLayoutMargins"]
+- ["PSo21UIAppearanceContainer", "recipe"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "UIEdgeInsets"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "foodImageView"]
+- ["PSo17UICoordinateSpace", "foodNameLabel"]
+- ["PSo17UICoordinateSpace", "identifier"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layoutIfNeeded"]
+- !private ["PSo17UICoordinateSpace", "layoutMargins"]
+- !private ["PSo17UICoordinateSpace", "preservesSuperviewLayoutMargins"]
+- ["PSo17UICoordinateSpace", "recipe"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "UIEdgeInsets"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "foodImageView"]
+- ["PSo13UIDynamicItem", "foodNameLabel"]
+- ["PSo13UIDynamicItem", "identifier"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layoutIfNeeded"]
+- !private ["PSo13UIDynamicItem", "layoutMargins"]
+- !private ["PSo13UIDynamicItem", "preservesSuperviewLayoutMargins"]
+- ["PSo13UIDynamicItem", "recipe"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", ""]
+- ["VSC12UIEdgeInsets", "deinit"]
+- !private ["VSC12UIEdgeInsets", "zero"]
+- !private ["PSo18UIFocusEnvironment", "UIEdgeInsets"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "foodImageView"]
+- ["PSo18UIFocusEnvironment", "foodNameLabel"]
+- ["PSo18UIFocusEnvironment", "identifier"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layoutIfNeeded"]
+- !private ["PSo18UIFocusEnvironment", "layoutMargins"]
+- !private ["PSo18UIFocusEnvironment", "preservesSuperviewLayoutMargins"]
+- ["PSo18UIFocusEnvironment", "recipe"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "UIEdgeInsets"]
+- ["PSo11UIFocusItem", "awakeFromNib"]
+- ["PSo11UIFocusItem", "foodImageView"]
+- ["PSo11UIFocusItem", "foodNameLabel"]
+- ["PSo11UIFocusItem", "identifier"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "layoutIfNeeded"]
+- !private ["PSo11UIFocusItem", "layoutMargins"]
+- !private ["PSo11UIFocusItem", "preservesSuperviewLayoutMargins"]
+- ["PSo11UIFocusItem", "recipe"]
+- !private ["PSo11UIFocusItem", "text"]
+- ["PSo11UIFocusItem", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIEdgeInsets"]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "foodImageView"]
+- ["PSo27UIGestureRecognizerDelegate", "foodNameLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "identifier"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- !private ["PSo27UIGestureRecognizerDelegate", "layoutIfNeeded"]
+- !private ["PSo27UIGestureRecognizerDelegate", "layoutMargins"]
+- !private ["PSo27UIGestureRecognizerDelegate", "preservesSuperviewLayoutMargins"]
+- ["PSo27UIGestureRecognizerDelegate", "recipe"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo7UILabel", "deinit"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "Recipe"]
+- !private ["CSo11UIResponder", "UIEdgeInsets"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "foodImageView"]
+- ["CSo11UIResponder", "foodNameLabel"]
+- ["CSo11UIResponder", "identifier"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layoutIfNeeded"]
+- !private ["CSo11UIResponder", "layoutMargins"]
+- !private ["CSo11UIResponder", "preservesSuperviewLayoutMargins"]
+- ["CSo11UIResponder", "recipe"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "UIEdgeInsets"]
+- ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- ["PSo30UIResponderStandardEditActions", "foodImageView"]
+- ["PSo30UIResponderStandardEditActions", "foodNameLabel"]
+- ["PSo30UIResponderStandardEditActions", "identifier"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "layoutIfNeeded"]
+- !private ["PSo30UIResponderStandardEditActions", "layoutMargins"]
+- !private ["PSo30UIResponderStandardEditActions", "preservesSuperviewLayoutMargins"]
+- ["PSo30UIResponderStandardEditActions", "recipe"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "Recipe"]
+- !private ["CSo15UITableViewCell", "UIEdgeInsets"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "deinit"]
+- ["CSo15UITableViewCell", "foodImageView"]
+- ["CSo15UITableViewCell", "foodNameLabel"]
+- ["CSo15UITableViewCell", "identifier"]
+- ["CSo15UITableViewCell", "init"]
+- !private ["CSo15UITableViewCell", "layoutIfNeeded"]
+- !private ["CSo15UITableViewCell", "layoutMargins"]
+- !private ["CSo15UITableViewCell", "preservesSuperviewLayoutMargins"]
+- ["CSo15UITableViewCell", "recipe"]
+- ["CSo15UITableViewCell", ""]
+- ["OSC20UITableViewCellStyle", "deinit"]
+- !private ["PSo18UITraitEnvironment", "UIEdgeInsets"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "foodImageView"]
+- ["PSo18UITraitEnvironment", "foodNameLabel"]
+- ["PSo18UITraitEnvironment", "identifier"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layoutIfNeeded"]
+- !private ["PSo18UITraitEnvironment", "layoutMargins"]
+- !private ["PSo18UITraitEnvironment", "preservesSuperviewLayoutMargins"]
+- ["PSo18UITraitEnvironment", "recipe"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Recipe"]
+- !private ["CSo6UIView", "UIEdgeInsets"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "foodImageView"]
+- ["CSo6UIView", "foodNameLabel"]
+- ["CSo6UIView", "identifier"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layoutIfNeeded"]
+- !private ["CSo6UIView", "layoutMargins"]
+- !private ["CSo6UIView", "preservesSuperviewLayoutMargins"]
+- ["CSo6UIView", "recipe"]
+- !private ["CSo6UIView", "text"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIEdgeInsets"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "foodImageView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "foodNameLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "identifier"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layoutIfNeeded"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layoutMargins"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "preservesSuperviewLayoutMargins"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "recipe"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "uppercased"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "uppercased"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "uppercased"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "uppercased"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "uppercased"]
+- !private ["Ps9_Hashable", "UIEdgeInsets"]
+- ["Ps9_Hashable", "awakeFromNib"]
+- ["Ps9_Hashable", "foodImageView"]
+- ["Ps9_Hashable", "foodNameLabel"]
+- ["Ps9_Hashable", "identifier"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "layoutIfNeeded"]
+- !private ["Ps9_Hashable", "layoutMargins"]
+- !private ["Ps9_Hashable", "name"]
+- !private ["Ps9_Hashable", "preservesSuperviewLayoutMargins"]
+- ["Ps9_Hashable", "recipe"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "uppercased"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "uppercased"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C9HungryBoi17FoodTableViewCell"
+- "Ps8Hashable"
+- "SQ"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "PSo20NSFetchRequestResult"
+- !private "CSo15NSManagedObject"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Sq"
+- !private "C9HungryBoi6Recipe"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "VSC12UIEdgeInsets"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "OSC20UITableViewCellStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Products/Debug-iphonesimulator/HungryBoiCommon.framework/Modules/HungryBoiCommon.swiftmodule/x86_64.swiftmodule"
+- "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Products/Debug-iphonesimulator/HungryBoiCommon.framework/Headers/HungryBoiCommon-Swift.h"
+- "/Users/leokwan/Development/Hungry-Boi/HungryBoiCommon/HungryBoiCommon.h"
+- "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Intermediates/HungryBoi.build/Debug-iphonesimulator/HungryBoiCommon.build/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WatchKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "a45725fff84dbb6653fd5566cd92d16b"

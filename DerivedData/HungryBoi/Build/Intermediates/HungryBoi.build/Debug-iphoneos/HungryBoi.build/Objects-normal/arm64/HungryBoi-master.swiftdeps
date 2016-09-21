@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "db4d166febd931bce02735846d7143c0"
+build_time: [527712943, 96445000]
+inputs:
+  "/Users/leokwan/Development/Hungry-Boi/Recipe+CoreDataClass.swift": [527705823, 0]
+  "/Users/leokwan/Development/Hungry-Boi/HungryBoi/FoodRecipeViewController.swift": [527705823, 0]
+  "/Users/leokwan/Development/Hungry-Boi/HungryBoi/FoodTableViewCell.swift": [527705823, 0]
+  "/Users/leokwan/Development/Hungry-Boi/Recipe+CoreDataProperties.swift": [527705823, 0]
+  "/Users/leokwan/Development/Hungry-Boi/HungryBoiCommon/WatchDataManager.swift": [527705823, 0]
+  "/Users/leokwan/Development/Hungry-Boi/HungryBoiCommon/WatchRecipe.swift": [527705823, 0]
+  "/Users/leokwan/Development/Hungry-Boi/HungryBoi/PhoneToWatchService.swift": [527705823, 0]
+  "/Users/leokwan/Development/Hungry-Boi/HungryBoi/AppDelegate.swift": [527712252, 0]

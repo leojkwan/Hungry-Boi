@@ -1,0 +1,625 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C9HungryBoi11AppDelegate"
+provides-member:
+- ["C9HungryBoi11AppDelegate", ""]
+provides-dynamic-lookup:
+- "applicationDidEnterBackground"
+- "window"
+- "applicationWillEnterForeground"
+- "application"
+- "application"
+- "applicationDidBecomeActive"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+depends-top-level:
+- !private "FoodRecipeViewController"
+- "AppDelegate"
+- "Void"
+- "Bool"
+- "UIResponder"
+- !private "BooleanLiteralType"
+- !private "StringLiteralType"
+- "UIApplicationLaunchOptionsKey"
+- "UIApplicationDelegate"
+- !private "PhoneToWatchService"
+- "CastingPrecedence"
+- "AnyHashable"
+- "AssignmentPrecedence"
+- !private "fatalError"
+- !private "UINavigationController"
+- "UIApplication"
+- "NSPersistentContainer"
+- "UIWindow"
+- !private "print"
+- !private "NSError"
+depends-member:
+- !private ["Ps9AnyObject", "NSPersistentContainer"]
+- !private ["Ps9AnyObject", "PhoneToWatchService"]
+- ["Ps9AnyObject", "application"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidEnterBackground"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["Ps9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9AnyObject", "applicationSignificantTimeChange"]
+- ["Ps9AnyObject", "applicationWillEnterForeground"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "applicationWillTerminate"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loadPersistentStores"]
+- ["Ps9AnyObject", "persistentContainer"]
+- ["Ps9AnyObject", "persistentContainer.storage"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "rootViewController"]
+- !private ["Ps9AnyObject", "setupWatchConnectivity"]
+- !private ["Ps9AnyObject", "topViewController"]
+- !private ["Ps9AnyObject", "userInfo"]
+- !private ["Ps9AnyObject", "watchService"]
+- ["Ps9AnyObject", "window"]
+- ["Ps9AnyObject", ""]
+- ["C9HungryBoi11AppDelegate", "AnyHashable"]
+- ["C9HungryBoi11AppDelegate", "Bool"]
+- !private ["C9HungryBoi11AppDelegate", "FoodRecipeViewController"]
+- !private ["C9HungryBoi11AppDelegate", "NSError"]
+- ["C9HungryBoi11AppDelegate", "NSPersistentContainer"]
+- !private ["C9HungryBoi11AppDelegate", "PhoneToWatchService"]
+- ["C9HungryBoi11AppDelegate", "UIApplication"]
+- ["C9HungryBoi11AppDelegate", "UIApplicationLaunchOptionsKey"]
+- !private ["C9HungryBoi11AppDelegate", "UINavigationController"]
+- ["C9HungryBoi11AppDelegate", "UIWindow"]
+- ["C9HungryBoi11AppDelegate", "Void"]
+- ["C9HungryBoi11AppDelegate", "application"]
+- ["C9HungryBoi11AppDelegate", "applicationDidBecomeActive"]
+- ["C9HungryBoi11AppDelegate", "applicationDidEnterBackground"]
+- ["C9HungryBoi11AppDelegate", "applicationDidFinishLaunching"]
+- ["C9HungryBoi11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C9HungryBoi11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C9HungryBoi11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C9HungryBoi11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C9HungryBoi11AppDelegate", "applicationSignificantTimeChange"]
+- ["C9HungryBoi11AppDelegate", "applicationWillEnterForeground"]
+- ["C9HungryBoi11AppDelegate", "applicationWillResignActive"]
+- ["C9HungryBoi11AppDelegate", "applicationWillTerminate"]
+- ["C9HungryBoi11AppDelegate", "deinit"]
+- !private ["C9HungryBoi11AppDelegate", "fatalError"]
+- ["C9HungryBoi11AppDelegate", "init"]
+- !private ["C9HungryBoi11AppDelegate", "persistentContainer"]
+- !private ["C9HungryBoi11AppDelegate", "persistentContainer.storage"]
+- !private ["C9HungryBoi11AppDelegate", "print"]
+- ["C9HungryBoi11AppDelegate", "window"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "rootViewController"]
+- !private ["Ps7CVarArg", "NSPersistentContainer"]
+- !private ["Ps7CVarArg", "PhoneToWatchService"]
+- ["Ps7CVarArg", "application"]
+- ["Ps7CVarArg", "applicationDidBecomeActive"]
+- ["Ps7CVarArg", "applicationDidEnterBackground"]
+- ["Ps7CVarArg", "applicationDidFinishLaunching"]
+- ["Ps7CVarArg", "applicationDidReceiveMemoryWarning"]
+- ["Ps7CVarArg", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps7CVarArg", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps7CVarArg", "applicationShouldRequestHealthAuthorization"]
+- ["Ps7CVarArg", "applicationSignificantTimeChange"]
+- ["Ps7CVarArg", "applicationWillEnterForeground"]
+- ["Ps7CVarArg", "applicationWillResignActive"]
+- ["Ps7CVarArg", "applicationWillTerminate"]
+- !private ["Ps7CVarArg", "fatalError"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "loadPersistentStores"]
+- ["Ps7CVarArg", "persistentContainer"]
+- ["Ps7CVarArg", "persistentContainer.storage"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "rootViewController"]
+- !private ["Ps7CVarArg", "setupWatchConnectivity"]
+- !private ["Ps7CVarArg", "topViewController"]
+- !private ["Ps7CVarArg", "userInfo"]
+- !private ["Ps7CVarArg", "watchService"]
+- ["Ps7CVarArg", "window"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "NSPersistentContainer"]
+- !private ["Ps28CustomDebugStringConvertible", "PhoneToWatchService"]
+- ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps28CustomDebugStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "loadPersistentStores"]
+- ["Ps28CustomDebugStringConvertible", "persistentContainer"]
+- ["Ps28CustomDebugStringConvertible", "persistentContainer.storage"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "setupWatchConnectivity"]
+- !private ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps28CustomDebugStringConvertible", "topViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "userInfo"]
+- !private ["Ps28CustomDebugStringConvertible", "watchService"]
+- ["Ps28CustomDebugStringConvertible", "window"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "NSPersistentContainer"]
+- !private ["Ps23CustomStringConvertible", "PhoneToWatchService"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "loadPersistentStores"]
+- ["Ps23CustomStringConvertible", "persistentContainer"]
+- ["Ps23CustomStringConvertible", "persistentContainer.storage"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "rootViewController"]
+- !private ["Ps23CustomStringConvertible", "setupWatchConnectivity"]
+- !private ["Ps23CustomStringConvertible", "topViewController"]
+- !private ["Ps23CustomStringConvertible", "userInfo"]
+- !private ["Ps23CustomStringConvertible", "watchService"]
+- ["Ps23CustomStringConvertible", "window"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "NSPersistentContainer"]
+- !private ["Ps9Equatable", "PhoneToWatchService"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidEnterBackground"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9Equatable", "applicationSignificantTimeChange"]
+- ["Ps9Equatable", "applicationWillEnterForeground"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "applicationWillTerminate"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "loadPersistentStores"]
+- ["Ps9Equatable", "persistentContainer"]
+- ["Ps9Equatable", "persistentContainer.storage"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "rootViewController"]
+- !private ["Ps9Equatable", "setupWatchConnectivity"]
+- !private ["Ps9Equatable", "topViewController"]
+- !private ["Ps9Equatable", "userInfo"]
+- !private ["Ps9Equatable", "watchService"]
+- ["Ps9Equatable", "window"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "userInfo"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- ["C9HungryBoi24FoodRecipeViewController", "deinit"]
+- !private ["C9HungryBoi24FoodRecipeViewController", "persistentContainer"]
+- !private ["C9HungryBoi24FoodRecipeViewController", "watchService"]
+- !private ["Ps8Hashable", "NSPersistentContainer"]
+- !private ["Ps8Hashable", "PhoneToWatchService"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidEnterBackground"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps8Hashable", "applicationSignificantTimeChange"]
+- ["Ps8Hashable", "applicationWillEnterForeground"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "applicationWillTerminate"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "loadPersistentStores"]
+- ["Ps8Hashable", "persistentContainer"]
+- ["Ps8Hashable", "persistentContainer.storage"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "rootViewController"]
+- !private ["Ps8Hashable", "setupWatchConnectivity"]
+- !private ["Ps8Hashable", "topViewController"]
+- !private ["Ps8Hashable", "userInfo"]
+- !private ["Ps8Hashable", "watchService"]
+- ["Ps8Hashable", "window"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "persistentContainer"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo8NSCoding", "topViewController"]
+- !private ["PSo8NSCoding", "userInfo"]
+- !private ["PSo8NSCoding", "watchService"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "userInfo"]
+- !private ["CSo7NSError", "deinit"]
+- !private ["CSo7NSError", "userInfo"]
+- !private ["PSo26NSExtensionRequestHandling", "persistentContainer"]
+- !private ["PSo26NSExtensionRequestHandling", "topViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "watchService"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyHashable"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "FoodRecipeViewController"]
+- !private ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "NSPersistentContainer"]
+- !private ["CSo8NSObject", "PhoneToWatchService"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
+- !private ["CSo8NSObject", "UINavigationController"]
+- ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "loadPersistentStores"]
+- ["CSo8NSObject", "persistentContainer"]
+- ["CSo8NSObject", "persistentContainer.storage"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "rootViewController"]
+- !private ["CSo8NSObject", "setupWatchConnectivity"]
+- !private ["CSo8NSObject", "topViewController"]
+- !private ["CSo8NSObject", "userInfo"]
+- !private ["CSo8NSObject", "watchService"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "NSPersistentContainer"]
+- !private ["PSo16NSObjectProtocol", "PhoneToWatchService"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "loadPersistentStores"]
+- ["PSo16NSObjectProtocol", "persistentContainer"]
+- ["PSo16NSObjectProtocol", "persistentContainer.storage"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "setupWatchConnectivity"]
+- !private ["PSo16NSObjectProtocol", "topViewController"]
+- !private ["PSo16NSObjectProtocol", "userInfo"]
+- !private ["PSo16NSObjectProtocol", "watchService"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo21NSPersistentContainer", "deinit"]
+- !private ["CSo21NSPersistentContainer", "init"]
+- !private ["CSo21NSPersistentContainer", "loadPersistentStores"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "userInfo"]
+- !private ["CSo8NSString", "init"]
+- !private ["Os5Never", "deinit"]
+- ["Sq", "deinit"]
+- !private ["Sq", "some"]
+- ["C9HungryBoi19PhoneToWatchService", "deinit"]
+- !private ["C9HungryBoi19PhoneToWatchService", "init"]
+- !private ["C9HungryBoi19PhoneToWatchService", "setupWatchConnectivity"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "persistentContainer"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "topViewController"]
+- !private ["PSo21UIAppearanceContainer", "watchService"]
+- !private ["PSo21UIApplicationDelegate", "NSPersistentContainer"]
+- !private ["PSo21UIApplicationDelegate", "PhoneToWatchService"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- !private ["PSo21UIApplicationDelegate", "fatalError"]
+- !private ["PSo21UIApplicationDelegate", "persistentContainer"]
+- !private ["PSo21UIApplicationDelegate", "print"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- !private ["PSo18UIContentContainer", "persistentContainer"]
+- !private ["PSo18UIContentContainer", "topViewController"]
+- !private ["PSo18UIContentContainer", "watchService"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "persistentContainer"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "topViewController"]
+- !private ["PSo18UIFocusEnvironment", "watchService"]
+- !private ["PSo11UIFocusItem", "rootViewController"]
+- ["CSo22UINavigationController", "deinit"]
+- !private ["CSo22UINavigationController", "topViewController"]
+- ["CSo11UIResponder", "AnyHashable"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "FoodRecipeViewController"]
+- !private ["CSo11UIResponder", "NSError"]
+- ["CSo11UIResponder", "NSPersistentContainer"]
+- !private ["CSo11UIResponder", "PhoneToWatchService"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
+- !private ["CSo11UIResponder", "UINavigationController"]
+- ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "deinit"]
+- !private ["CSo11UIResponder", "fatalError"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "persistentContainer"]
+- ["CSo11UIResponder", "persistentContainer.storage"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- !private ["CSo11UIResponder", "topViewController"]
+- !private ["CSo11UIResponder", "watchService"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "NSPersistentContainer"]
+- !private ["PSo30UIResponderStandardEditActions", "PhoneToWatchService"]
+- ["PSo30UIResponderStandardEditActions", "application"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidFinishLaunching"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationShouldRequestHealthAuthorization"]
+- ["PSo30UIResponderStandardEditActions", "applicationSignificantTimeChange"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillEnterForeground"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillResignActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillTerminate"]
+- !private ["PSo30UIResponderStandardEditActions", "fatalError"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "persistentContainer"]
+- ["PSo30UIResponderStandardEditActions", "persistentContainer.storage"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "rootViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "topViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "watchService"]
+- ["PSo30UIResponderStandardEditActions", "window"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo20UIScrollViewDelegate", "persistentContainer"]
+- !private ["PSo20UIScrollViewDelegate", "watchService"]
+- !private ["PSo16UIStateRestoring", "persistentContainer"]
+- !private ["PSo16UIStateRestoring", "topViewController"]
+- !private ["PSo16UIStateRestoring", "watchService"]
+- !private ["CSo21UITableViewController", "persistentContainer"]
+- !private ["CSo21UITableViewController", "watchService"]
+- !private ["PSo21UITableViewDataSource", "persistentContainer"]
+- !private ["PSo21UITableViewDataSource", "watchService"]
+- !private ["PSo19UITableViewDelegate", "persistentContainer"]
+- !private ["PSo19UITableViewDelegate", "watchService"]
+- !private ["PSo18UITraitEnvironment", "persistentContainer"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["PSo18UITraitEnvironment", "topViewController"]
+- !private ["PSo18UITraitEnvironment", "watchService"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo16UIViewController", "persistentContainer"]
+- !private ["CSo16UIViewController", "topViewController"]
+- !private ["CSo16UIViewController", "watchService"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSo17WCSessionDelegate", "init"]
+- !private ["PSo17WCSessionDelegate", "setupWatchConnectivity"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rootViewController"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "NSPersistentContainer"]
+- !private ["Ps9_Hashable", "PhoneToWatchService"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "application"]
+- ["Ps9_Hashable", "applicationDidBecomeActive"]
+- ["Ps9_Hashable", "applicationDidEnterBackground"]
+- ["Ps9_Hashable", "applicationDidFinishLaunching"]
+- ["Ps9_Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9_Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9_Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9_Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9_Hashable", "applicationSignificantTimeChange"]
+- ["Ps9_Hashable", "applicationWillEnterForeground"]
+- ["Ps9_Hashable", "applicationWillResignActive"]
+- ["Ps9_Hashable", "applicationWillTerminate"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "loadPersistentStores"]
+- ["Ps9_Hashable", "persistentContainer"]
+- ["Ps9_Hashable", "persistentContainer.storage"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "rootViewController"]
+- !private ["Ps9_Hashable", "setupWatchConnectivity"]
+- !private ["Ps9_Hashable", "topViewController"]
+- !private ["Ps9_Hashable", "userInfo"]
+- !private ["Ps9_Hashable", "watchService"]
+- ["Ps9_Hashable", "window"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C9HungryBoi11AppDelegate"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "C9HungryBoi24FoodRecipeViewController"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo21NSPersistentContainer"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Os5Never"
+- "Sq"
+- "C9HungryBoi19PhoneToWatchService"
+- !private "Vs12StaticString"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- "PSo21UIApplicationDelegate"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo22UINavigationController"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "PSo20UIScrollViewDelegate"
+- !private "PSo16UIStateRestoring"
+- !private "CSo21UITableViewController"
+- !private "PSo21UITableViewDataSource"
+- !private "PSo19UITableViewDelegate"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "PSo17WCSessionDelegate"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Products/Debug-iphonesimulator/HungryBoiCommon.framework/Modules/HungryBoiCommon.swiftmodule/x86_64.swiftmodule"
+- "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Products/Debug-iphonesimulator/HungryBoiCommon.framework/Headers/HungryBoiCommon-Swift.h"
+- "/Users/leokwan/Development/Hungry-Boi/HungryBoiCommon/HungryBoiCommon.h"
+- "/Users/leokwan/Development/Hungry-Boi/DerivedData/HungryBoi/Build/Intermediates/HungryBoi.build/Debug-iphonesimulator/HungryBoiCommon.build/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WatchKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "05e385676c8d68e8caa3f10088eef68c"

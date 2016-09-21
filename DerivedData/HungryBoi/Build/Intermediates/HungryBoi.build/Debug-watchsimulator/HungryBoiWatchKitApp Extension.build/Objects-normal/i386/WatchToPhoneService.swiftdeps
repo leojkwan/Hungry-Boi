@@ -1,0 +1,506 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IncomingWatchInfoDelegate"
+- "WatchToPhoneService"
+provides-nominal:
+- "P30HungryBoiWatchKitApp_Extension25IncomingWatchInfoDelegate"
+- "C30HungryBoiWatchKitApp_Extension19WatchToPhoneService"
+provides-member:
+- ["P30HungryBoiWatchKitApp_Extension25IncomingWatchInfoDelegate", ""]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", ""]
+provides-dynamic-lookup:
+- "setupWatchConnectivity"
+- "sharedInstance"
+- "session"
+- "session"
+- "session"
+- "requestRecipes"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "=="
+- "CastingPrecedence"
+- !private "print"
+- "String"
+- "IncomingWatchInfoDelegate"
+- "WCSession"
+- !private "Dictionary"
+- !private "!="
+- !private "&&"
+- "WatchToPhoneService"
+- "NSObject"
+- !private "StringLiteralType"
+- !private "WKExtension"
+- "WCSessionActivationState"
+- "Error"
+- "WCSessionDelegate"
+- !private "RecipesWatchController"
+depends-member:
+- !private ["Ps9AnyObject", "WCSession"]
+- !private ["Ps9AnyObject", "WKExtension"]
+- ["Ps9AnyObject", "WatchToPhoneService"]
+- !private ["Ps9AnyObject", "activate"]
+- !private ["Ps9AnyObject", "default"]
+- ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isSupported"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "requestRecipes"]
+- !private ["Ps9AnyObject", "rootInterfaceController"]
+- !private ["Ps9AnyObject", "sendMessage"]
+- ["Ps9AnyObject", "session"]
+- ["Ps9AnyObject", "sessionDidBecomeInactive"]
+- ["Ps9AnyObject", "sessionDidDeactivate"]
+- ["Ps9AnyObject", "sessionReachabilityDidChange"]
+- ["Ps9AnyObject", "sessionWatchStateDidChange"]
+- ["Ps9AnyObject", "setupWatchConnectivity"]
+- !private ["Ps9AnyObject", "shared"]
+- ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "transferUserInfo"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "WCSession"]
+- !private ["Ps7CVarArg", "WKExtension"]
+- ["Ps7CVarArg", "WatchToPhoneService"]
+- !private ["Ps7CVarArg", "activate"]
+- !private ["Ps7CVarArg", "default"]
+- ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isSupported"]
+- !private ["Ps7CVarArg", "keys"]
+- !private ["Ps7CVarArg", "print"]
+- ["Ps7CVarArg", "requestRecipes"]
+- !private ["Ps7CVarArg", "rootInterfaceController"]
+- !private ["Ps7CVarArg", "sendMessage"]
+- ["Ps7CVarArg", "session"]
+- ["Ps7CVarArg", "sessionDidBecomeInactive"]
+- ["Ps7CVarArg", "sessionDidDeactivate"]
+- ["Ps7CVarArg", "sessionReachabilityDidChange"]
+- ["Ps7CVarArg", "sessionWatchStateDidChange"]
+- ["Ps7CVarArg", "setupWatchConnectivity"]
+- !private ["Ps7CVarArg", "shared"]
+- ["Ps7CVarArg", "sharedInstance"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "transferUserInfo"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Collection", "keys"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "WCSession"]
+- !private ["Ps28CustomDebugStringConvertible", "WKExtension"]
+- ["Ps28CustomDebugStringConvertible", "WatchToPhoneService"]
+- !private ["Ps28CustomDebugStringConvertible", "activate"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isSupported"]
+- !private ["Ps28CustomDebugStringConvertible", "keys"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "requestRecipes"]
+- !private ["Ps28CustomDebugStringConvertible", "rootInterfaceController"]
+- !private ["Ps28CustomDebugStringConvertible", "sendMessage"]
+- ["Ps28CustomDebugStringConvertible", "session"]
+- ["Ps28CustomDebugStringConvertible", "sessionDidBecomeInactive"]
+- ["Ps28CustomDebugStringConvertible", "sessionDidDeactivate"]
+- ["Ps28CustomDebugStringConvertible", "sessionReachabilityDidChange"]
+- ["Ps28CustomDebugStringConvertible", "sessionWatchStateDidChange"]
+- ["Ps28CustomDebugStringConvertible", "setupWatchConnectivity"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "transferUserInfo"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "keys"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "WCSession"]
+- !private ["Ps23CustomStringConvertible", "WKExtension"]
+- ["Ps23CustomStringConvertible", "WatchToPhoneService"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "activate"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isSupported"]
+- !private ["Ps23CustomStringConvertible", "keys"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "requestRecipes"]
+- !private ["Ps23CustomStringConvertible", "rootInterfaceController"]
+- !private ["Ps23CustomStringConvertible", "sendMessage"]
+- ["Ps23CustomStringConvertible", "session"]
+- ["Ps23CustomStringConvertible", "sessionDidBecomeInactive"]
+- ["Ps23CustomStringConvertible", "sessionDidDeactivate"]
+- ["Ps23CustomStringConvertible", "sessionReachabilityDidChange"]
+- ["Ps23CustomStringConvertible", "sessionWatchStateDidChange"]
+- ["Ps23CustomStringConvertible", "setupWatchConnectivity"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- ["Ps23CustomStringConvertible", "sharedInstance"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "transferUserInfo"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "Iterator"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "keys"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs18DictionaryIterator", "Element"]
+- !private ["Ps9Equatable", "WCSession"]
+- !private ["Ps9Equatable", "WKExtension"]
+- ["Ps9Equatable", "WatchToPhoneService"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "activate"]
+- !private ["Ps9Equatable", "default"]
+- ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isSupported"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "requestRecipes"]
+- !private ["Ps9Equatable", "rootInterfaceController"]
+- !private ["Ps9Equatable", "sendMessage"]
+- ["Ps9Equatable", "session"]
+- ["Ps9Equatable", "sessionDidBecomeInactive"]
+- ["Ps9Equatable", "sessionDidDeactivate"]
+- ["Ps9Equatable", "sessionReachabilityDidChange"]
+- ["Ps9Equatable", "sessionWatchStateDidChange"]
+- ["Ps9Equatable", "setupWatchConnectivity"]
+- !private ["Ps9Equatable", "shared"]
+- ["Ps9Equatable", "sharedInstance"]
+- !private ["Ps9Equatable", "transferUserInfo"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "keys"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "WCSession"]
+- !private ["Ps8Hashable", "WKExtension"]
+- ["Ps8Hashable", "WatchToPhoneService"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "activate"]
+- !private ["Ps8Hashable", "default"]
+- ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isSupported"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "requestRecipes"]
+- !private ["Ps8Hashable", "rootInterfaceController"]
+- !private ["Ps8Hashable", "sendMessage"]
+- ["Ps8Hashable", "session"]
+- ["Ps8Hashable", "sessionDidBecomeInactive"]
+- ["Ps8Hashable", "sessionDidDeactivate"]
+- ["Ps8Hashable", "sessionReachabilityDidChange"]
+- ["Ps8Hashable", "sessionWatchStateDidChange"]
+- ["Ps8Hashable", "setupWatchConnectivity"]
+- !private ["Ps8Hashable", "shared"]
+- ["Ps8Hashable", "sharedInstance"]
+- !private ["Ps8Hashable", "transferUserInfo"]
+- ["Ps8Hashable", ""]
+- ["P30HungryBoiWatchKitApp_Extension25IncomingWatchInfoDelegate", "String"]
+- !private ["P30HungryBoiWatchKitApp_Extension25IncomingWatchInfoDelegate", "deinit"]
+- ["P30HungryBoiWatchKitApp_Extension25IncomingWatchInfoDelegate", "didReceiveUserInfo"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "first"]
+- !private ["Ps9Indexable", "keys"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "first"]
+- !private ["Ps13IndexableBase", "keys"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps22LazyCollectionProtocol", "Iterator"]
+- !private ["Ps22LazyCollectionProtocol", "first"]
+- !private ["Vs17LazyMapCollection", "Iterator"]
+- ["Vs17LazyMapCollection", "deinit"]
+- !private ["Vs17LazyMapCollection", "first"]
+- !private ["Vs15LazyMapIterator", "Element"]
+- !private ["Ps20LazySequenceProtocol", "Iterator"]
+- !private ["Ps20LazySequenceProtocol", "first"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Error"]
+- ["CSo8NSObject", "IncomingWatchInfoDelegate"]
+- !private ["CSo8NSObject", "RecipesWatchController"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "WCSession"]
+- ["CSo8NSObject", "WCSessionActivationState"]
+- !private ["CSo8NSObject", "WKExtension"]
+- ["CSo8NSObject", "WatchToPhoneService"]
+- !private ["CSo8NSObject", "activate"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isSupported"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "requestRecipes"]
+- !private ["CSo8NSObject", "rootInterfaceController"]
+- !private ["CSo8NSObject", "sendMessage"]
+- ["CSo8NSObject", "session"]
+- ["CSo8NSObject", "sessionDidBecomeInactive"]
+- ["CSo8NSObject", "sessionDidDeactivate"]
+- ["CSo8NSObject", "sessionReachabilityDidChange"]
+- ["CSo8NSObject", "sessionWatchStateDidChange"]
+- ["CSo8NSObject", "setupWatchConnectivity"]
+- !private ["CSo8NSObject", "shared"]
+- ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "transferUserInfo"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "WCSession"]
+- !private ["PSo16NSObjectProtocol", "WKExtension"]
+- ["PSo16NSObjectProtocol", "WatchToPhoneService"]
+- !private ["PSo16NSObjectProtocol", "activate"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isSupported"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "requestRecipes"]
+- !private ["PSo16NSObjectProtocol", "rootInterfaceController"]
+- !private ["PSo16NSObjectProtocol", "sendMessage"]
+- ["PSo16NSObjectProtocol", "session"]
+- ["PSo16NSObjectProtocol", "sessionDidBecomeInactive"]
+- ["PSo16NSObjectProtocol", "sessionDidDeactivate"]
+- ["PSo16NSObjectProtocol", "sessionReachabilityDidChange"]
+- ["PSo16NSObjectProtocol", "sessionWatchStateDidChange"]
+- ["PSo16NSObjectProtocol", "setupWatchConnectivity"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "transferUserInfo"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["C30HungryBoiWatchKitApp_Extension22RecipesWatchController", "deinit"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps8Sequence", "keys"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["CSo9WCSession", "activate"]
+- !private ["CSo9WCSession", "default"]
+- ["CSo9WCSession", "deinit"]
+- !private ["CSo9WCSession", "delegate"]
+- !private ["CSo9WCSession", "isSupported"]
+- !private ["CSo9WCSession", "sendMessage"]
+- !private ["CSo9WCSession", "transferUserInfo"]
+- !private ["PSo17WCSessionDelegate", "WCSession"]
+- !private ["PSo17WCSessionDelegate", "WKExtension"]
+- ["PSo17WCSessionDelegate", "WatchToPhoneService"]
+- !private ["PSo17WCSessionDelegate", "delegate"]
+- ["PSo17WCSessionDelegate", "init"]
+- !private ["PSo17WCSessionDelegate", "print"]
+- ["PSo17WCSessionDelegate", "session"]
+- ["PSo17WCSessionDelegate", "sessionDidBecomeInactive"]
+- ["PSo17WCSessionDelegate", "sessionDidDeactivate"]
+- ["PSo17WCSessionDelegate", "sessionReachabilityDidChange"]
+- ["PSo17WCSessionDelegate", "sessionWatchStateDidChange"]
+- ["PSo17WCSessionDelegate", ""]
+- ["CSo25WCSessionUserInfoTransfer", "deinit"]
+- ["CSo11WKExtension", "deinit"]
+- !private ["CSo11WKExtension", "rootInterfaceController"]
+- !private ["CSo11WKExtension", "shared"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "Error"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "IncomingWatchInfoDelegate"]
+- !private ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "RecipesWatchController"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "String"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "WCSession"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "WCSessionActivationState"]
+- !private ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "WKExtension"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "WatchToPhoneService"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "deinit"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "delegate"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "init"]
+- !private ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "print"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "requestRecipes"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "session"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "sessionDidBecomeInactive"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "sessionDidDeactivate"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "sessionReachabilityDidChange"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "sessionWatchStateDidChange"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "setupWatchConnectivity"]
+- ["C30HungryBoiWatchKitApp_Extension19WatchToPhoneService", "sharedInstance"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "WCSession"]
+- !private ["Ps9_Hashable", "WKExtension"]
+- ["Ps9_Hashable", "WatchToPhoneService"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "activate"]
+- !private ["Ps9_Hashable", "default"]
+- ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isSupported"]
+- !private ["Ps9_Hashable", "print"]
+- ["Ps9_Hashable", "requestRecipes"]
+- !private ["Ps9_Hashable", "rootInterfaceController"]
+- !private ["Ps9_Hashable", "sendMessage"]
+- ["Ps9_Hashable", "session"]
+- ["Ps9_Hashable", "sessionDidBecomeInactive"]
+- ["Ps9_Hashable", "sessionDidDeactivate"]
+- ["Ps9_Hashable", "sessionReachabilityDidChange"]
+- ["Ps9_Hashable", "sessionWatchStateDidChange"]
+- ["Ps9_Hashable", "setupWatchConnectivity"]
+- !private ["Ps9_Hashable", "shared"]
+- ["Ps9_Hashable", "sharedInstance"]
+- !private ["Ps9_Hashable", "transferUserInfo"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "keys"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "Vs18DictionaryIterator"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "P30HungryBoiWatchKitApp_Extension25IncomingWatchInfoDelegate"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- !private "Ps22LazyCollectionProtocol"
+- "Vs17LazyMapCollection"
+- !private "Vs15LazyMapIterator"
+- !private "Ps20LazySequenceProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "C30HungryBoiWatchKitApp_Extension22RecipesWatchController"
+- !private "Ps8Sequence"
+- !private "Vs5Slice"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "CSo9WCSession"
+- "PSo17WCSessionDelegate"
+- "CSo25WCSessionUserInfoTransfer"
+- "CSo11WKExtension"
+- "C30HungryBoiWatchKitApp_Extension19WatchToPhoneService"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/WatchKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/HomeKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/SceneKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/simd.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreLocation.swiftmodule"
+interface-hash: "075642c88d6ec29d2e0e31d5e8198c56"

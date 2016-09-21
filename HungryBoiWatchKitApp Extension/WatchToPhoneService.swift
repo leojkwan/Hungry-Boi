@@ -55,14 +55,6 @@ final public class WatchToPhoneService: NSObject, WCSessionDelegate {
   public func session(_ session: WCSession, didReceiveApplicationContext applicationContext: [String : Any]) {
     //
   }
-  
-  private lazy var notificationCenter: NotificationCenter = {
-    return NotificationCenter.default
-  }()
-  
-  //  func setupNotificationCenter() {
-  //
-  //  }
 }
 
 
