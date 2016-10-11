@@ -1,6 +1,5 @@
 import Foundation
 import UIKit
-import HungryBoiCommon
 
 class FoodTableViewCell: UITableViewCell {
   static var identifier = "FoodTableViewCell"

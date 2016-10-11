@@ -1,62 +1,82 @@
-
-//
-//  WatchConnectivityService.swift
-//  Atrium
-
 import Foundation
 import WatchKit
 import WatchConnectivity
 
 
 protocol IncomingWatchInfoDelegate: class {
-  func didReceiveUserInfo(key:String, info: Any)
+  func didReceiveRecipes(key: String, recipes: [WatchRecipe])
 }
 
 final public class WatchToPhoneService: NSObject, WCSessionDelegate {
   
   weak var delegate: IncomingWatchInfoDelegate?
+  
   static let sharedInstance = WatchToPhoneService()
   
-  func requestRecipes() {
-    WCSession.default().transferUserInfo(["GET_Recipes": ""])
+  override private init() { }
+  
+  func setupWatchConnectivity() {
+      let session  = WCSession.default()
+      session.delegate = self
+      session.activate()
   }
   
-  /** Called when the session has completed activation. If session state is WCSessionActivationStateNotActivated there will be an error with more details. */
-  @available(watchOS 2.2, *)
-  public func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+  
+  
+  func requestRecipes() {
+    
+    WCSession.default().sendMessage(["recipes": ""], replyHandler: { [weak self] (reply) in
+      print(reply)
+      
+      guard let strongSelf = self else {
+        return
+      }
+      
+      let key = reply.keys.first!
+      let info = reply[key]!
+      
+      if key == "recipes" {
+        let rootVC = WKExtension.shared().rootInterfaceController as? RecipesWatchController
+        
+        if strongSelf.delegate == nil && rootVC != nil {
+          // The root vc was not present when watch app started
+          // Now what we have the root, set it as the watch into delegate
+          strongSelf.delegate = rootVC
+        }
+        
+        if let watchRecipes = info as? [WatchRecipe] {
+          strongSelf.delegate?.didReceiveRecipes(key: key, recipes: watchRecipes)
+        }
+      }
+    }) { (error) in
+      print(error)
+    }
+  }
+  
+  private func handleIncomingPhoneRecipes(reply: [String: AnyObject]) {
     
   }
   
-  public func session(_ session: WCSession, didReceiveUserInfo userInfo: [String : Any] = [:]) {
-    let key = userInfo.keys.first!
-    let info = userInfo[key]!
+  @available(watchOS 2.2, *)
+  public func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+  }
+  
+  public func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
+    let key = message.keys.first!
+    let info = message[key]!
     
     if key == "recipes" {
       let rootVC = WKExtension.shared().rootInterfaceController as? RecipesWatchController
+      
       if delegate == nil && rootVC != nil {
         // The root vc was not present when watch app started
         // Now what we have the root, set it as the watch into delegate
         delegate = rootVC
       }
       
-      delegate?.didReceiveUserInfo(key: key, info: info)
+      if let watchRecipes = info as? [WatchRecipe] {
+        delegate?.didReceiveRecipes(key: key, recipes: watchRecipes)
+      }
     }
-  }
-  
-  
-  func setupWatchConnectivity() {
-    if WCSession.isSupported() {
-      let session  = WCSession.default()
-      session.delegate = self
-      session.activate()
-    }
-  }
-  
-  public func session(_ session: WCSession, didReceiveApplicationContext applicationContext: [String : Any]) {
-    //
   }
 }
-
-
-
-

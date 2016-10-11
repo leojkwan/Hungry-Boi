@@ -1,5 +1,4 @@
 import UIKit
-import HungryBoiCommon
 import CoreData
 import WatchConnectivity
 
@@ -68,6 +67,11 @@ class FoodRecipeViewController: UITableViewController {
     let alertController = UIAlertController(title: "Add recipe", message: "", preferredStyle: .alert)
     
     alertController.addTextField(configurationHandler: nil)
+    
+    alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel) { action in
+      alertController.dismiss(animated: true, completion: nil)
+    })
+    
     alertController.addAction(UIAlertAction(title: "Add", style: .default) { [weak self] action in
       let text = alertController.textFields?.first?.text ?? ""
       self?.createNewRecipe(recipeName: text)

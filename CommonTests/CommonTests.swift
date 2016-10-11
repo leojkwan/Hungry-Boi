@@ -1,15 +1,15 @@
 //
-//  HungryBoiCommonTests.swift
-//  HungryBoiCommonTests
+//  CommonTests.swift
+//  CommonTests
 //
-//  Created by Leo Kwan on 9/16/16.
+//  Created by Leo Kwan on 9/21/16.
 //  Copyright © 2016 Leo Kwan. All rights reserved.
 //
 
 import XCTest
-@testable import HungryBoiCommon
+@testable import Common
 
-class HungryBoiCommonTests: XCTestCase {
+class CommonTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

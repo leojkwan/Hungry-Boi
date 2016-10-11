@@ -2,12 +2,12 @@ import Foundation
 import CoreData
 
 public extension Recipe {
-
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Recipe> {
-        return NSFetchRequest<Recipe>(entityName: "Recipe");
-    }
-
-    @NSManaged public var name: String
+  
+  @nonobjc public class func fetchRequest() -> NSFetchRequest<Recipe> {
+    return NSFetchRequest<Recipe>(entityName: "Recipe");
+  }
+  
+  @NSManaged public var name: String
   
   public class func fetchAll(from container:NSPersistentContainer, completion:@escaping ([Recipe]) -> Void)  {
     let request: NSFetchRequest<Recipe> = Recipe.fetchRequest()
@@ -26,5 +26,5 @@ public extension Recipe {
     
     try! container.viewContext.execute(asyncRequest)
   }
-
+  
 }

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94941F7D1D9098390065EA60 /* WatchRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94941F7C1D9098390065EA60 /* WatchRecipe.swift */; };
+		940805BE1D92DAB000F6FDCF /* HungryBoi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94E97ECD1D8C7BEB00E25C3A /* HungryBoi.xcdatamodeld */; };
 		94941F7E1D909A290065EA60 /* WatchRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94941F7C1D9098390065EA60 /* WatchRecipe.swift */; };
 		94941F7F1D909A2B0065EA60 /* WatchRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94941F7C1D9098390065EA60 /* WatchRecipe.swift */; };
 		94941F831D909B300065EA60 /* RecipeRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94941F801D909AA60065EA60 /* RecipeRowController.swift */; };
@@ -19,10 +19,7 @@
 		9497BB161D8C4AD900E45158 /* HungryBoiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9497BB151D8C4AD900E45158 /* HungryBoiUITests.swift */; };
 		9497BB281D8C517800E45158 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9497BB271D8C517800E45158 /* FoodTableViewCell.xib */; };
 		9497BB2A1D8C519900E45158 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9497BB291D8C519900E45158 /* FoodTableViewCell.swift */; };
-		94DEBD921D8C909A007CB232 /* HungryBoi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94E97ECD1D8C7BEB00E25C3A /* HungryBoi.xcdatamodeld */; };
 		94DEBD951D8C914D007CB232 /* FoodRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9497BAF71D8C4AD900E45158 /* FoodRecipeViewController.swift */; };
-		94DEBD981D8C91D8007CB232 /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E97ED11D8C7C6500E25C3A /* Recipe+CoreDataProperties.swift */; };
-		94DEBD991D8C91D8007CB232 /* Recipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E97ED01D8C7C6500E25C3A /* Recipe+CoreDataClass.swift */; };
 		94DEBD9B1D8C9239007CB232 /* Recipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E97ED01D8C7C6500E25C3A /* Recipe+CoreDataClass.swift */; };
 		94DEBD9C1D8C9239007CB232 /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E97ED11D8C7C6500E25C3A /* Recipe+CoreDataProperties.swift */; };
 		94DEBD9D1D8C923C007CB232 /* HungryBoi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94E97ECD1D8C7BEB00E25C3A /* HungryBoi.xcdatamodeld */; };
@@ -32,14 +29,8 @@
 		94E97EE31D8C873B00E25C3A /* HungryBoiWatchKitApp Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 94E97EE21D8C873B00E25C3A /* HungryBoiWatchKitApp Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		94E97EEA1D8C873B00E25C3A /* RecipesWatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E97EE91D8C873B00E25C3A /* RecipesWatchController.swift */; };
 		94E97EEC1D8C873B00E25C3A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E97EEB1D8C873B00E25C3A /* ExtensionDelegate.swift */; };
-		94E97EEE1D8C873B00E25C3A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E97EED1D8C873B00E25C3A /* NotificationController.swift */; };
 		94E97EF01D8C873B00E25C3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E97EEF1D8C873B00E25C3A /* Assets.xcassets */; };
 		94E97EF41D8C873B00E25C3A /* HungryBoiWatchKitApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 94E97ED61D8C873B00E25C3A /* HungryBoiWatchKitApp.app */; };
-		94E97F0B1D8C879400E25C3A /* HungryBoiCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E97F021D8C879400E25C3A /* HungryBoiCommon.framework */; };
-		94E97F121D8C879400E25C3A /* HungryBoiCommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E97F111D8C879400E25C3A /* HungryBoiCommonTests.swift */; };
-		94E97F141D8C879400E25C3A /* HungryBoiCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E97F041D8C879400E25C3A /* HungryBoiCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94E97F171D8C879400E25C3A /* HungryBoiCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E97F021D8C879400E25C3A /* HungryBoiCommon.framework */; };
-		94E97F181D8C879400E25C3A /* HungryBoiCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94E97F021D8C879400E25C3A /* HungryBoiCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		94E97F211D8C88E200E25C3A /* PhoneToWatchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E97F201D8C88E200E25C3A /* PhoneToWatchService.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,27 +63,6 @@
 			remoteGlobalIDString = 94E97ED51D8C873B00E25C3A;
 			remoteInfo = HungryBoiWatchKitApp;
 		};
-		94E97F0C1D8C879400E25C3A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9497BAEA1D8C4AD900E45158 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 94E97F011D8C879400E25C3A;
-			remoteInfo = HungryBoiCommon;
-		};
-		94E97F0E1D8C879400E25C3A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9497BAEA1D8C4AD900E45158 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9497BAF11D8C4AD900E45158;
-			remoteInfo = HungryBoi;
-		};
-		94E97F151D8C879400E25C3A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9497BAEA1D8C4AD900E45158 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 94E97F011D8C879400E25C3A;
-			remoteInfo = HungryBoiCommon;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -124,7 +94,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				94E97F181D8C879400E25C3A /* HungryBoiCommon.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,7 +101,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		94941F7C1D9098390065EA60 /* WatchRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchRecipe.swift; sourceTree = "<group>"; };
+		94941F7C1D9098390065EA60 /* WatchRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WatchRecipe.swift; path = HungryBoiCommon/WatchRecipe.swift; sourceTree = "<group>"; };
 		94941F801D909AA60065EA60 /* RecipeRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecipeRowController.swift; path = ../HungryBoiCommon/RecipeRowController.swift; sourceTree = "<group>"; };
 		9497BAF21D8C4AD900E45158 /* HungryBoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungryBoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9497BAF51D8C4AD900E45158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -151,8 +120,8 @@
 		9497BB291D8C519900E45158 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 		94DEBD9E1D8C9484007CB232 /* WatchToPhoneService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchToPhoneService.swift; sourceTree = "<group>"; };
 		94E97ECE1D8C7BEB00E25C3A /* HungryBoi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HungryBoi.xcdatamodel; sourceTree = "<group>"; };
-		94E97ED01D8C7C6500E25C3A /* Recipe+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataClass.swift"; path = "../Recipe+CoreDataClass.swift"; sourceTree = "<group>"; };
-		94E97ED11D8C7C6500E25C3A /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		94E97ED01D8C7C6500E25C3A /* Recipe+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataClass.swift"; sourceTree = "<group>"; };
+		94E97ED11D8C7C6500E25C3A /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		94E97ED61D8C873B00E25C3A /* HungryBoiWatchKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungryBoiWatchKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E97ED91D8C873B00E25C3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		94E97EDB1D8C873B00E25C3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -161,15 +130,8 @@
 		94E97EE81D8C873B00E25C3A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		94E97EE91D8C873B00E25C3A /* RecipesWatchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesWatchController.swift; sourceTree = "<group>"; };
 		94E97EEB1D8C873B00E25C3A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		94E97EED1D8C873B00E25C3A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		94E97EEF1D8C873B00E25C3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94E97EF11D8C873B00E25C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94E97F021D8C879400E25C3A /* HungryBoiCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HungryBoiCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94E97F041D8C879400E25C3A /* HungryBoiCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HungryBoiCommon.h; sourceTree = "<group>"; };
-		94E97F051D8C879400E25C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94E97F0A1D8C879400E25C3A /* HungryBoiCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HungryBoiCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		94E97F111D8C879400E25C3A /* HungryBoiCommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungryBoiCommonTests.swift; sourceTree = "<group>"; };
-		94E97F131D8C879400E25C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E97F201D8C88E200E25C3A /* PhoneToWatchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneToWatchService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,7 +140,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94E97F171D8C879400E25C3A /* HungryBoiCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,34 +164,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94E97EFE1D8C879400E25C3A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94E97F071D8C879400E25C3A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94E97F0B1D8C879400E25C3A /* HungryBoiCommon.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		940805BD1D92DA9D00F6FDCF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				94941F7C1D9098390065EA60 /* WatchRecipe.swift */,
+				94E97ED01D8C7C6500E25C3A /* Recipe+CoreDataClass.swift */,
+				94E97ED11D8C7C6500E25C3A /* Recipe+CoreDataProperties.swift */,
+				94E97ECD1D8C7BEB00E25C3A /* HungryBoi.xcdatamodeld */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		9497BAE91D8C4AD900E45158 = {
 			isa = PBXGroup;
 			children = (
+				940805BD1D92DA9D00F6FDCF /* Common */,
 				9497BAF41D8C4AD900E45158 /* HungryBoi */,
-				9497BB091D8C4AD900E45158 /* HungryBoiTests */,
-				9497BB141D8C4AD900E45158 /* HungryBoiUITests */,
 				94E97ED71D8C873B00E25C3A /* HungryBoiWatchKitApp */,
 				94E97EE61D8C873B00E25C3A /* HungryBoiWatchKitApp Extension */,
-				94E97F031D8C879400E25C3A /* HungryBoiCommon */,
-				94E97F101D8C879400E25C3A /* HungryBoiCommonTests */,
+				9497BB091D8C4AD900E45158 /* HungryBoiTests */,
+				9497BB141D8C4AD900E45158 /* HungryBoiUITests */,
 				9497BAF31D8C4AD900E45158 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -243,8 +199,6 @@
 				9497BB111D8C4AD900E45158 /* HungryBoiUITests.xctest */,
 				94E97ED61D8C873B00E25C3A /* HungryBoiWatchKitApp.app */,
 				94E97EE21D8C873B00E25C3A /* HungryBoiWatchKitApp Extension.appex */,
-				94E97F021D8C879400E25C3A /* HungryBoiCommon.framework */,
-				94E97F0A1D8C879400E25C3A /* HungryBoiCommonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -300,7 +254,6 @@
 				94E97EE91D8C873B00E25C3A /* RecipesWatchController.swift */,
 				94E97EEB1D8C873B00E25C3A /* ExtensionDelegate.swift */,
 				94DEBD9E1D8C9484007CB232 /* WatchToPhoneService.swift */,
-				94E97EED1D8C873B00E25C3A /* NotificationController.swift */,
 				94E97EEF1D8C873B00E25C3A /* Assets.xcassets */,
 				94E97EF11D8C873B00E25C3A /* Info.plist */,
 				94E97EE71D8C873B00E25C3A /* Supporting Files */,
@@ -316,40 +269,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		94E97F031D8C879400E25C3A /* HungryBoiCommon */ = {
-			isa = PBXGroup;
-			children = (
-				94941F7C1D9098390065EA60 /* WatchRecipe.swift */,
-				94E97ED01D8C7C6500E25C3A /* Recipe+CoreDataClass.swift */,
-				94E97ED11D8C7C6500E25C3A /* Recipe+CoreDataProperties.swift */,
-				94E97ECD1D8C7BEB00E25C3A /* HungryBoi.xcdatamodeld */,
-				94E97F041D8C879400E25C3A /* HungryBoiCommon.h */,
-				94E97F051D8C879400E25C3A /* Info.plist */,
-			);
-			path = HungryBoiCommon;
-			sourceTree = "<group>";
-		};
-		94E97F101D8C879400E25C3A /* HungryBoiCommonTests */ = {
-			isa = PBXGroup;
-			children = (
-				94E97F111D8C879400E25C3A /* HungryBoiCommonTests.swift */,
-				94E97F131D8C879400E25C3A /* Info.plist */,
-			);
-			path = HungryBoiCommonTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		94E97EFF1D8C879400E25C3A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94E97F141D8C879400E25C3A /* HungryBoiCommon.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		9497BAF11D8C4AD900E45158 /* HungryBoi */ = {
@@ -366,7 +286,6 @@
 			);
 			dependencies = (
 				94E97EF31D8C873B00E25C3A /* PBXTargetDependency */,
-				94E97F161D8C879400E25C3A /* PBXTargetDependency */,
 			);
 			name = HungryBoi;
 			productName = HungryBoi;
@@ -443,43 +362,6 @@
 			productReference = 94E97EE21D8C873B00E25C3A /* HungryBoiWatchKitApp Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		94E97F011D8C879400E25C3A /* HungryBoiCommon */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 94E97F191D8C879400E25C3A /* Build configuration list for PBXNativeTarget "HungryBoiCommon" */;
-			buildPhases = (
-				94E97EFD1D8C879400E25C3A /* Sources */,
-				94E97EFE1D8C879400E25C3A /* Frameworks */,
-				94E97EFF1D8C879400E25C3A /* Headers */,
-				94E97F001D8C879400E25C3A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HungryBoiCommon;
-			productName = HungryBoiCommon;
-			productReference = 94E97F021D8C879400E25C3A /* HungryBoiCommon.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		94E97F091D8C879400E25C3A /* HungryBoiCommonTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 94E97F1D1D8C879400E25C3A /* Build configuration list for PBXNativeTarget "HungryBoiCommonTests" */;
-			buildPhases = (
-				94E97F061D8C879400E25C3A /* Sources */,
-				94E97F071D8C879400E25C3A /* Frameworks */,
-				94E97F081D8C879400E25C3A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				94E97F0D1D8C879400E25C3A /* PBXTargetDependency */,
-				94E97F0F1D8C879400E25C3A /* PBXTargetDependency */,
-			);
-			name = HungryBoiCommonTests;
-			productName = HungryBoiCommonTests;
-			productReference = 94E97F0A1D8C879400E25C3A /* HungryBoiCommonTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -515,18 +397,6 @@
 						DevelopmentTeam = DWCYJ9H353;
 						ProvisioningStyle = Automatic;
 					};
-					94E97F011D8C879400E25C3A = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = DWCYJ9H353;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
-					};
-					94E97F091D8C879400E25C3A = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = DWCYJ9H353;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 9497BAF11D8C4AD900E45158;
-					};
 				};
 			};
 			buildConfigurationList = 9497BAED1D8C4AD900E45158 /* Build configuration list for PBXProject "HungryBoi" */;
@@ -547,8 +417,6 @@
 				9497BB101D8C4AD900E45158 /* HungryBoiUITests */,
 				94E97ED51D8C873B00E25C3A /* HungryBoiWatchKitApp */,
 				94E97EE11D8C873B00E25C3A /* HungryBoiWatchKitApp Extension */,
-				94E97F011D8C879400E25C3A /* HungryBoiCommon */,
-				94E97F091D8C879400E25C3A /* HungryBoiCommonTests */,
 			);
 		};
 /* End PBXProject section */
@@ -596,20 +464,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94E97F001D8C879400E25C3A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94E97F081D8C879400E25C3A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -648,31 +502,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94E97EEE1D8C873B00E25C3A /* NotificationController.swift in Sources */,
 				94941F7F1D909A2B0065EA60 /* WatchRecipe.swift in Sources */,
 				94DEBD9F1D8C9484007CB232 /* WatchToPhoneService.swift in Sources */,
 				94E97EEC1D8C873B00E25C3A /* ExtensionDelegate.swift in Sources */,
+				940805BE1D92DAB000F6FDCF /* HungryBoi.xcdatamodeld in Sources */,
 				94941F831D909B300065EA60 /* RecipeRowController.swift in Sources */,
 				94E97EEA1D8C873B00E25C3A /* RecipesWatchController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94E97EFD1D8C879400E25C3A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94DEBD981D8C91D8007CB232 /* Recipe+CoreDataProperties.swift in Sources */,
-				94941F7D1D9098390065EA60 /* WatchRecipe.swift in Sources */,
-				94DEBD991D8C91D8007CB232 /* Recipe+CoreDataClass.swift in Sources */,
-				94DEBD921D8C909A007CB232 /* HungryBoi.xcdatamodeld in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94E97F061D8C879400E25C3A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94E97F121D8C879400E25C3A /* HungryBoiCommonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,21 +533,6 @@
 			isa = PBXTargetDependency;
 			target = 94E97ED51D8C873B00E25C3A /* HungryBoiWatchKitApp */;
 			targetProxy = 94E97EF21D8C873B00E25C3A /* PBXContainerItemProxy */;
-		};
-		94E97F0D1D8C879400E25C3A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 94E97F011D8C879400E25C3A /* HungryBoiCommon */;
-			targetProxy = 94E97F0C1D8C879400E25C3A /* PBXContainerItemProxy */;
-		};
-		94E97F0F1D8C879400E25C3A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9497BAF11D8C4AD900E45158 /* HungryBoi */;
-			targetProxy = 94E97F0E1D8C879400E25C3A /* PBXContainerItemProxy */;
-		};
-		94E97F161D8C879400E25C3A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 94E97F011D8C879400E25C3A /* HungryBoiCommon */;
-			targetProxy = 94E97F151D8C879400E25C3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -840,7 +660,6 @@
 		9497BB1B1D8C4AD900E45158 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DWCYJ9H353;
 				INFOPLIST_FILE = HungryBoi/Info.plist;
@@ -854,7 +673,6 @@
 		9497BB1C1D8C4AD900E45158 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DWCYJ9H353;
 				INFOPLIST_FILE = HungryBoi/Info.plist;
@@ -989,81 +807,6 @@
 			};
 			name = Release;
 		};
-		94E97F1A1D8C879400E25C3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = DWCYJ9H353;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = HungryBoiCommon/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.leojkwan.HungryBoiCommon;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		94E97F1B1D8C879400E25C3A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = DWCYJ9H353;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = HungryBoiCommon/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.leojkwan.HungryBoiCommon;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		94E97F1E1D8C879400E25C3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = DWCYJ9H353;
-				INFOPLIST_FILE = HungryBoiCommonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.leojkwan.HungryBoiCommonTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HungryBoi.app/HungryBoi";
-			};
-			name = Debug;
-		};
-		94E97F1F1D8C879400E25C3A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = DWCYJ9H353;
-				INFOPLIST_FILE = HungryBoiCommonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.leojkwan.HungryBoiCommonTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HungryBoi.app/HungryBoi";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1121,24 +864,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94E97F191D8C879400E25C3A /* Build configuration list for PBXNativeTarget "HungryBoiCommon" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94E97F1A1D8C879400E25C3A /* Debug */,
-				94E97F1B1D8C879400E25C3A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		94E97F1D1D8C879400E25C3A /* Build configuration list for PBXNativeTarget "HungryBoiCommonTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94E97F1E1D8C879400E25C3A /* Debug */,
-				94E97F1F1D8C879400E25C3A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -1149,7 +874,7 @@
 			);
 			currentVersion = 94E97ECE1D8C7BEB00E25C3A /* HungryBoi.xcdatamodel */;
 			name = HungryBoi.xcdatamodeld;
-			path = ../HungryBoi/HungryBoi.xcdatamodeld;
+			path = HungryBoi/HungryBoi.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

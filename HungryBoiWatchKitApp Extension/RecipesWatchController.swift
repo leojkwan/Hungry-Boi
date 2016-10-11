@@ -1,44 +1,43 @@
 import WatchKit
+import WatchConnectivity
 import Foundation
 
 
 
 class RecipesWatchController: WKInterfaceController {
-
-  @IBOutlet var recipeTableView: WKInterfaceTable!
-    override func awake(withContext context: Any?) {
-        super.awake(withContext: context)
-      
-    }
-    
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-        super.willActivate()
-       WatchToPhoneService.sharedInstance.requestRecipes()
-      
-    }
   
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
-        super.didDeactivate()
+  @IBOutlet var recipeTableView: WKInterfaceTable!
+  
+  override func awake(withContext context: Any?) {
+    super.awake(withContext: context)
+    setTitle("Hungry Boi")
+  }
+  
+  override func willActivate() {
+    super.willActivate()
+  }
+  
+  override func didAppear() {
+    
+    if WCSession.default().isReachable {
+      WatchToPhoneService.sharedInstance.requestRecipes()
     }
-
+  }
+  
 }
 
 extension RecipesWatchController: IncomingWatchInfoDelegate {
-  func didReceiveUserInfo(key: String, info: Any) {
+  func didReceiveRecipes(key: String, recipes: [WatchRecipe]) {
     
-    if let recipes = info as? [WatchRecipe] {
-      
-    recipeTableView.setNumberOfRows(recipes.count, withRowType: "RecipeRowType")
+      recipeTableView.setNumberOfRows(recipes.count, withRowType: "RecipeRowType")
       
       for (index, recipe) in recipes.enumerated() {
-        
         let controller = recipeTableView.rowController(at: index) as! RecipeRowController
-        controller.titleLabel.setText(recipe.keys.first!)
+        
+        if let recipeName = recipe["name"] as? String {
+          controller.titleLabel.setText(recipeName)
+        }
       }
-      
-    }
     
   }
 }

@@ -1,7 +1,6 @@
 import Foundation
 import WatchConnectivity
 import WatchKit
-import HungryBoiCommon
 import CoreData
 
 
@@ -12,40 +11,36 @@ public final class PhoneToWatchService: NSObject, WCSessionDelegate {
     return NotificationCenter.default
   }()
   
-//  private var watchDataManager: WatchDataManager?
 
   init(persistentContainer: NSPersistentContainer) {
     self.persistentContainer = persistentContainer
   }
   
   public func sendRecipesToWatch(recipes: [Recipe]) {
-    
-    let watchRecipes = recipes.map({ (recipe) -> WatchRecipe in
-      return [recipe.name: recipe.name as AnyObject]
-    })
-    
+    let watchRecipes = generateWatchRecipes(recipes: recipes)
     if WCSession.isSupported() {
-      WCSession.default().transferUserInfo(["recipes": watchRecipes])
+      WCSession.default().sendMessage(["recipes": watchRecipes], replyHandler: nil, errorHandler: nil)
     }
+  }
+  
+  private func generateWatchRecipes(recipes: [Recipe])-> [WatchRecipe] {
+    return recipes.map({ (recipe) -> WatchRecipe in
+      return ["name": recipe.name as AnyObject]
+    })
   }
   
   public func session(_ session: WCSession, didReceiveMessage message: [String : Any], replyHandler: @escaping ([String : Any]) -> Void) {
-    print(message)
-  }
-  
-  public func session(_ session: WCSession, didReceiveApplicationContext applicationContext: [String : Any]) {
-    print("Phone->Watch Receiving Context: \(applicationContext)")
-  }
-  
-  public func session(_ session: WCSession, didReceiveUserInfo userInfo: [String : Any] = [:]) {
-    if userInfo.keys.first == "GET_Recipes" {
-      
+    if message.keys.first == "recipes" {
       Recipe.fetchAll(from: persistentContainer) { [weak self] (recipes) in
-        self?.sendRecipesToWatch(recipes: recipes)
+        guard let strongSelf = self else {
+          return
+        }
+        let watchRecipes = strongSelf.generateWatchRecipes(recipes: recipes)
+        replyHandler(["recipes": watchRecipes])
       }
     }
   }
-  
+
   func setupWatchConnectivity() {
     if WCSession.isSupported() {
       let session  = WCSession.default()
@@ -53,13 +48,6 @@ public final class PhoneToWatchService: NSObject, WCSessionDelegate {
       session.activate()
     }
   }
-  
-  
-//  public func sendRecipesToWatch(recipes: [WatchRecipe]) {
-//    if WCSession.isSupported() {
-//      WCSession.default().transferUserInfo(["recipes": recipes])
-//    }
-//  }
 }
 
 
